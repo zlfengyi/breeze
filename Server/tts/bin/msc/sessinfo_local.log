@@ -1,0 +1,35 @@
+============================================================
+Time  2015/11/17 23:08:51 274 
+============================================================
+[2015/11/17 23:08:51 274] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/17 23:08:51 274] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/17 23:08:51 274] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/17 23:19:53 864 
+============================================================
+[2015/11/17 23:19:53 864] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/17 23:19:53 864] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/17 23:19:53 864] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/17 23:19:53 864] sessinfo_l 328  send_sessifo start  
+[2015/11/17 23:19:53 864] sessinfo_l 335  plog_fsize  0  
+[2015/11/17 23:19:53 864] sessinfo_l 108  get_send_data  
+[2015/11/17 23:19:53 865] sessinfo_l 378  original_data_len  570  
+[2015/11/17 23:19:53 865] sessinfo_l 399  new encoder success  
+[2015/11/17 23:19:53 866] sessinfo_l 384  compress success, compressed data_len:  443  
+[2015/11/17 23:19:53 866] sessinfo_l 387  data encrypt success  
+[2015/11/17 23:19:53 866] sessinfo_l 175  send_httpreq_data  
+[2015/11/17 23:19:53 866] sessinfo_l 192  standard  
+[2015/11/17 23:19:53 866] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=570&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 443
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}ôHî k—5√|ëm´ùX~ˆ¢‹%+S<ÖQïÖØ∑πãr21å&ﬁ,æ_w$tÏ¨!+ÒBÀU-J∂Pﬁ™≈=˜`˘ˆ…2⁄â≤5“¿∑(Q‹ƒŸ£PïDh‡tŸÙ˘]!iÅ¬\¸˘ãR√GJïu≤smÄ0„Øc\3è~®ÂDUl,/=∞sY0W`∂A˘ÈÏ)@Ô)2œ˜SΩ«Ä{Ü≤4◊Ùø&ü‘.‡Î˙Ç†´n8U]T≤êÁC=⁄Ç ëWq≠â‘ÌùbÜÃ5$%h\•6åiö‡¸∆y˚]9R¸∏–iì‚˛¸éß¸ñæg˚◊ Õªk B√ø·∑ëÖp`Ër6§)63c~ƒ!…›1é∆%†,”¸4‰˜Œ¿–¢Úz{òÈª˙ŸòöÍ+À´∫ª∏˚Û˛˜∆‹–æ2¢öÙ„¶
+µCq  
+[2015/11/17 23:19:53 866] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=570&gzip=0  
+[2015/11/17 23:19:53 867] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/17 23:19:53 867] sessinfo_l 150  save no upload data  

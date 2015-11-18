@@ -1,0 +1,47 @@
+============================================================
+Time  2015/11/17 23:08:51 204 
+============================================================
+[2015/11/17 23:08:51 204] lgi        597  SYS_MSG_LOAD  
+[2015/11/17 23:08:51 205] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(34014800) 
+[2015/11/17 23:08:51 205] lgi        343  LGI_MSG_INIT  
+[2015/11/17 23:08:51 205] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/11/17 23:08:51 205] lgi        382  auth_time_str=  2015/11/17 23:08:51  
+[2015/11/17 23:08:51 205] lgi        388  auth_appid=  5636fa94  
+[2015/11/17 23:08:51 205] lgi        396  auth_check  true  
+[2015/11/17 23:08:51 205] lgi        407  read auth file failed! err=  11200  
+[2015/11/17 23:08:51 205] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/11/17 23:08:51 205] lgi        526  lgistat =   0  
+[2015/11/17 23:08:51 206] transport  655  switch 80  
+[2015/11/17 23:08:51 206] transport  662  net type:  standard  
+[2015/11/17 23:08:51 206] transport  663  net operator:  def  
+[2015/11/17 23:08:51 206] transport  664  use proxy:  false  
+[2015/11/17 23:08:51 206] lgi        324  [session] send lgi request  
+[2015/11/17 23:08:51 206] transport  864  ns_i =  nil  
+[2015/11/17 23:08:51 207] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/11/17 23:08:51 276] lgi        610  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/11/17 23:19:53 802 
+============================================================
+[2015/11/17 23:19:53 802] lgi        597  SYS_MSG_LOAD  
+[2015/11/17 23:19:53 803] lgi        616  SYS_MSG_REGCB  msp_status_cb  func(68014840) 
+[2015/11/17 23:19:53 803] lgi        343  LGI_MSG_INIT  
+[2015/11/17 23:19:53 803] lgi        346  lgi  lgi_  268436457  1423641504  
+[2015/11/17 23:19:53 803] lgi        382  auth_time_str=  2015/11/17 23:19:53  
+[2015/11/17 23:19:53 803] lgi        388  auth_appid=  5636fa94  
+[2015/11/17 23:19:53 803] lgi        396  auth_check  true  
+[2015/11/17 23:19:53 803] lgi        407  read auth file failed! err=  11200  
+[2015/11/17 23:19:53 803] lgi        524  LGI_MSG_START, caller =  nil  
+[2015/11/17 23:19:53 803] lgi        526  lgistat =   0  
+[2015/11/17 23:19:53 804] transport  655  switch 80  
+[2015/11/17 23:19:53 804] transport  662  net type:  standard  
+[2015/11/17 23:19:53 804] transport  663  net operator:  def  
+[2015/11/17 23:19:53 804] transport  664  use proxy:  false  
+[2015/11/17 23:19:53 804] lgi        324  [session] send lgi request  
+[2015/11/17 23:19:53 804] transport  864  ns_i =  nil  
+[2015/11/17 23:19:53 805] lgi        606  SYS_MSG_UNLOAD  go bg!  
+[2015/11/17 23:19:53 837] transport  136  [dns] [0] response 116.213.69.200  
+[2015/11/17 23:19:53 837] transport  144  116  213  69  200  
+[2015/11/17 23:19:53 837] transport  173  iplist not avail  
+[2015/11/17 23:19:53 838] transport  225  expected ip  
+[2015/11/17 23:19:53 838] transport  939  [soc] connect   116.213.69.200  80  
+[2015/11/17 23:19:53 870] lgi        610  SYS_MSG_SHUTDOWN  
