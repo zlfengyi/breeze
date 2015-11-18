@@ -1,0 +1,1855 @@
+============================================================
+Time  2015/11/14 01:06:41 680 
+============================================================
+[2015/11/14 01:06:41 680] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:06:41 680] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:06:41 680] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:06:41 681] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:06:41 681] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:06:41 681] sessinfo_l 108  get_send_data  
+[2015/11/14 01:06:41 682] sessinfo_l 378  original_data_len  1317  
+[2015/11/14 01:06:41 682] sessinfo_l 399  new encoder success  
+[2015/11/14 01:06:41 683] sessinfo_l 384  compress success, compressed data_len:  680  
+[2015/11/14 01:06:41 683] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:06:41 684] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:06:41 684] sessinfo_l 192  standard  
+[2015/11/14 01:06:41 684] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1317&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 680
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜Q8jÑEà¢]ŞYfgê˜èş•Ê”‡,  
+[2015/11/14 01:06:41 684] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1317&gzip=0  
+[2015/11/14 01:06:42 277] network    22   dns resp  0  
+[2015/11/14 01:06:42 277] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 01:06:42 277] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 01:06:42 721] network    72   connected  
+[2015/11/14 01:06:42 722] network    75   send ok  926  
+[2015/11/14 01:06:46 172] network    78   readable  
+[2015/11/14 01:06:46 172] sessinfo_l 289  perflog http resp  nil  0  udata(3001fcb8) 
+[2015/11/14 01:06:46 172] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:06:46 172] sessinfo_l 307  new decoder success  
+[2015/11/14 01:06:46 173] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:06:46 173] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:06:46 173] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"type":"mscv5p","logver":"1.1.1","lcl":{"vad_vpos":0,"u_frs":3769,"vad_epos":127040,"u_lau":3618,"csid":"cisr1PdHHBHbpQsjkCLwHHm7w1xIWUIl6F","stime":"2015/11/14 01:06:37 757","vad_qlvl":8,"error":0,"l_frs":3625,"vad_eos":3618,"l_fau":2052,"u_auw_tlen":159744,"l_lau":3618,"vad_fos":6,"u_lrs":3769,"dur":3920,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_spos":18880,"l_lrs":3625,"cver":"5.1.0.1043","id":"asr","result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>64</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\"
+[2015/11/14 01:06:46 173] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:06:46 173] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:06:46 173] sessinfo_l 108  get_send_data  
+[2015/11/14 01:06:46 173] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:06:46 511 
+============================================================
+[2015/11/14 01:06:46 511] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:06:46 512] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:06:46 512] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:06:46 512] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:06:46 512] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:06:46 512] sessinfo_l 108  get_send_data  
+[2015/11/14 01:06:46 513] sessinfo_l 378  original_data_len  1315  
+[2015/11/14 01:06:46 513] sessinfo_l 399  new encoder success  
+[2015/11/14 01:06:46 514] sessinfo_l 384  compress success, compressed data_len:  690  
+[2015/11/14 01:06:46 514] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:06:46 514] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:06:46 514] sessinfo_l 192  standard  
+[2015/11/14 01:06:46 514] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1315&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 690
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÖEà¢]~ÌÀÁ¾L™#”–O@‡M…Q½¥QÓÃ[¢+nªÜX¢ˆßM½u  
+[2015/11/14 01:06:46 514] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1315&gzip=0  
+[2015/11/14 01:06:46 515] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:06:46 515] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:06:59 780 
+============================================================
+[2015/11/14 01:06:59 780] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:06:59 780] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:06:59 780] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:06:59 780] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:06:59 780] sessinfo_l 335  plog_fsize  1257  
+[2015/11/14 01:06:59 780] sessinfo_l 108  get_send_data  
+[2015/11/14 01:06:59 782] sessinfo_l 378  original_data_len  2567  
+[2015/11/14 01:06:59 782] sessinfo_l 399  new encoder success  
+[2015/11/14 01:06:59 784] sessinfo_l 384  compress success, compressed data_len:  865  
+[2015/11/14 01:06:59 784] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:06:59 784] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:06:59 784] sessinfo_l 192  standard  
+[2015/11/14 01:06:59 784] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=2567&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 865
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™Ø“ÈkŞCÂş-Á[qdÉX{Œ-uÕQ@^!K„TÁŸY/±’à—·^Eá×n–N
+@ì¬’›u•¢4â(?á+&ÜtA‚¥-qÜœøÊÉë)â˜¥B‰C©AÆ‘E1A:#\xqA'ŒÅsYÎˆìÅCèàÔt&ãü	z;DĞtÄE—uëû|–”ı0‹•2ÿ3 }G,uE…2³(õĞ¨
+†¶	Œ6íŞ³‹ã1A”ÆŒâ|]?ã¨2¹ĞrèÃlØAÇŸ`¶EQ$]UO±pÆA‘á[1œiHóh´xõhóe7$Ú²êÙ˜iÀ½ºˆas#ÎœxiF«O½#¡o=±0%‹‹A¡È HI††İ#FéBöÙó×D¹‰1Èä)’]·OÙ„9©)ö·¸IÌAÈ®³¤ÈıB,Ò¥H'Ì¶T
+ÿÑÖ]ãT—ÈC¸¿j|8HQ1-Ê63ï6ÔÖ3Â{Ãô1Ö1ZÀ‹äy¦6ß˜—Sé­ºøğÜÀÜZê›º¿ùşŠrâºZ™8¼}øÇ2¿èSã\™AUœˆXŞ2SÉs?˜aiÉö•wÚU“)×Û¢X†âd(ÃTG|T·VÍWÔµ÷ìSŸÙızQüÛ;¾™e®y_ˆ£e‰ÌXºj-Ğâ8[6w¨*WÚ%PX‘WÒt)¡Ø&¯È«vÃOîå€¾²ôü¼Åò/·cgÔgRB  
+[2015/11/14 01:06:59 785] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=2567&gzip=0  
+[2015/11/14 01:07:00 056] network    22   dns resp  0  
+[2015/11/14 01:07:00 056] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 01:07:00 056] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 01:07:00 465] network    72   connected  
+[2015/11/14 01:07:00 466] network    75   send ok  1111  
+[2015/11/14 01:07:00 878] network    78   readable  
+[2015/11/14 01:07:00 879] sessinfo_l 289  perflog http resp  nil  0  udata(2004bc28) 
+[2015/11/14 01:07:00 879] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:07:00 879] sessinfo_l 307  new decoder success  
+[2015/11/14 01:07:00 879] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:07:00 880] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:07:00 880] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"type":"mscv5p","logver":"1.1.1","lcl":{"id":"asr","cver":"5.1.0.1043","u_auw_tlen":159744,"vad_spos":18880,"vad_vpos":0,"u_lrs":3764,"u_fau":154,"eng_stc":1,"csid":"cisr1PdHHBHbpQsQkEnSHH1I2CFOHBf07Q","vad_epos":127040,"l_lrs":3621,"dur":3915,"stime":"2015/11/14 01:06:55 861","l_frs":3621,"l_lau":3613,"vad_fos":5,"error":0,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>64</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <contact id=\"65535\">ä¸
+[2015/11/14 01:07:00 880] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:07:00 880] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:07:00 880] sessinfo_l 108  get_send_data  
+[2015/11/14 01:07:00 880] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:07:04 685 
+============================================================
+[2015/11/14 01:07:04 685] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:07:04 685] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:07:04 685] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:12:40 170 
+============================================================
+[2015/11/14 01:12:40 170] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:12:40 176] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:12:40 176] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:12:40 176] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:12:40 177] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:12:40 177] sessinfo_l 108  get_send_data  
+[2015/11/14 01:12:40 178] sessinfo_l 378  original_data_len  1318  
+[2015/11/14 01:12:40 179] sessinfo_l 399  new encoder success  
+[2015/11/14 01:12:40 180] sessinfo_l 384  compress success, compressed data_len:  688  
+[2015/11/14 01:12:40 180] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:12:40 180] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:12:40 180] sessinfo_l 192  standard  
+[2015/11/14 01:12:40 180] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1318&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 688
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÖEà¢©ó—#ÛHiâFK/çÕåG•°ô«VRnªîX"ˆßMuá	>KMåâQ‘šÄ}h®u…›™œ|öcbã`+õOô›[e¬Ó}ÿ»´±c!\€¢Æ…‹YXLfÆ?ÂVI´†0yÆ†öI§ˆ-p¯÷\ŠóL
+Œ9S9ÈÒ¶[`—Bæ×ƒà™L\j"q
+ÉÆYö`‹UİãËlšƒkbİMÌ³C™üŠ²ê«ª;Ú¹úÿöÎÂj«ªÛYzú¿Xİgf",‚Ïgı¤~Â±d”ªÖYÉ œ	ØÓoİÃéjµRËV#WYd´ØÃØgëu–N÷B(E­Ğ¬>Kµ^;‘÷ÜVGXçÚ¾Øğ*lªêœ|ª™úGú  
+[2015/11/14 01:12:40 180] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1318&gzip=0  
+[2015/11/14 01:12:40 542] network    22   dns resp  0  
+[2015/11/14 01:12:40 542] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 01:12:40 542] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 01:12:40 859] network    72   connected  
+[2015/11/14 01:12:40 860] network    75   send ok  934  
+[2015/11/14 01:12:41 261] network    78   readable  
+[2015/11/14 01:12:41 261] sessinfo_l 289  perflog http resp  nil  0  udata(80028768) 
+[2015/11/14 01:12:41 261] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:12:41 262] sessinfo_l 307  new decoder success  
+[2015/11/14 01:12:41 262] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:12:41 262] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:12:41 262] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"l_lau":3617,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>65</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</contact>\n    </object>\n  </result>\n</nlp>\n"}],"id":"asr","cver":"5.1.0.1043","l_frs":3624,"u_lrs":3767,"csid":"cisr1PwHHBHbpQ+dUqVHH590wPiC7jddJ94","u_lau":3617,"error":0,"vad_fos":5,"stime":"2015/11/14 01:12:36 248","eng_stc":1,"u_fau":155,"vad_vpos":0,"vad_eos":3617,"u_auw_tlen":159744,"vad_epos":127040,"dur":3919,"l_fau":2050,"u_
+[2015/11/14 01:12:41 263] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:12:41 263] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:12:41 263] sessinfo_l 108  get_send_data  
+[2015/11/14 01:12:41 263] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:12:45 395 
+============================================================
+[2015/11/14 01:12:45 395] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:12:45 395] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:12:45 395] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:12:55 593 
+============================================================
+[2015/11/14 01:12:55 593] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:12:55 594] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:12:55 594] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:12:55 594] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:12:55 594] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:12:55 594] sessinfo_l 108  get_send_data  
+[2015/11/14 01:12:55 595] sessinfo_l 378  original_data_len  685  
+[2015/11/14 01:12:55 595] sessinfo_l 399  new encoder success  
+[2015/11/14 01:12:55 596] sessinfo_l 384  compress success, compressed data_len:  435  
+[2015/11/14 01:12:55 596] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:12:55 596] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:12:55 596] sessinfo_l 192  standard  
+[2015/11/14 01:12:55 596] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=685&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 435
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WHj™5èJD»ÓØ°¸ M¼áW¨Ñ›wm/Îƒü†ßƒaëzêİé£ç…ã¸|êÆ¹¦b ~àTö‹á9J8oªĞ%êO”'™eÚ#¾¹¤C"ÒšV¶s&o{àòŸáëåŒëqãÀ%Ñ5Ç-K€ÃŠ&`Bg‚%SÜ:  
+[2015/11/14 01:12:55 597] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=685&gzip=0  
+[2015/11/14 01:12:59 443] network    22   dns resp  0  
+[2015/11/14 01:12:59 443] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 01:12:59 443] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 01:12:59 958] network    72   connected  
+[2015/11/14 01:12:59 959] network    75   send ok  680  
+[2015/11/14 01:13:00 473] network    78   readable  
+[2015/11/14 01:13:00 473] sessinfo_l 289  perflog http resp  nil  0  udata(fc023198) 
+[2015/11/14 01:13:00 473] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:13:00 473] sessinfo_l 307  new decoder success  
+[2015/11/14 01:13:00 474] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:13:00 474] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:13:00 474] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"l_fau":2021,"l_frs":2570,"eng_stc":1,"vad_qlvl":0,"u_lau":2562,"vad_fos":4,"stime":"2015/11/14 01:12:52 724","id":"asr","vad_vpos":0,"l_lrs":2570,"u_auw_tlen":113904,"dur":2865,"u_lrs":2714,"vad_spos":11840,"csid":"cisr1PwHHBHbpQ+rg7WHHlr8mblmW2dM194","l_lau":2563,"u_fau":155,"vad_epos":62080,"vad_eos":2563,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","error":0,"cver":"5.1.0.1043","result":[{"sn":"1","s":"nil"}]},"type":"mscv5p"}]}}  
+[2015/11/14 01:13:00 474] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:13:00 474] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:13:00 474] sessinfo_l 108  get_send_data  
+[2015/11/14 01:13:00 474] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:13:01 998 
+============================================================
+[2015/11/14 01:13:01 998] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:13:01 998] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:13:01 998] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:13:01 998] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:13:01 998] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:13:01 998] sessinfo_l 108  get_send_data  
+[2015/11/14 01:13:01 999] sessinfo_l 378  original_data_len  1315  
+[2015/11/14 01:13:01 999] sessinfo_l 399  new encoder success  
+[2015/11/14 01:13:02 000] sessinfo_l 384  compress success, compressed data_len:  687  
+[2015/11/14 01:13:02 000] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:13:02 000] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:13:02 000] sessinfo_l 192  standard  
+[2015/11/14 01:13:02 000] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1315&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 687
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜Q´kŞ5è¢Y9Q´AŞwiFS…)ğU?Ó€EN‘¦…'P—wg!7qìßsìÕ¬˜¿q/%Eº#M×ºíŒ—(U1–ñëÛ¸>÷}rƒŠHÇ–6)p¡ÒJõÖI‘¢İÄ±-·µ:é
+V?åˆ†7\Ra+’}÷»4ªå#Ô.»‡zÊ´E¡Å¥H“6ï|ÁrtÌ|aGz‰Mº
+¬Ï.åòsÕ|ÁlÅòBcOL``|Æô‚»†Ö 2³(EŸ…MP~µrŸv±gObWI>¡îp´I7´™sO–ë‰?M/Ï eÖËŸìßÄu+Ÿİ•qLå³Å84éÑ2jÛØ»úsòğæèĞ‚Rªê»z¿üù3u^²àÃW¡\œ\=˜(mØI)6ÄG+fÏ²Dp~5ş
+-t¬Æ!¦¹UéQ	ˆHåÓãƒ¶ è˜~záƒY¶½ĞÙí¤)œË4ô9ŠÉôj¢Ùƒ÷êú¥[Z[YZ{|M—ƒø˜ØÙgÈó…¼ĞÆÃÒ[™¾pvÕå³0„^º¹|ìå¡âÜLøõÖïØÆ€›CßÁåwuDÈätÓx‹É¿emiö12vF°E8/­<J/Ê¼e€‡÷Yë46×1*=0P=ÇDîõ Ï¦@œô¡m¦š­yé9tïiÔÌ¬¥#|x©³/0£suÅi"ÂD½;!¶Ö8é|&>’ìøY“µ†YûáØ#Kïs«.½·7E‰°X1t£|s7èÊÀäæıü„Ô7ÊíK*šı‚İD/(J'Æœ­IzéiP#çÆz¹¯óó¾5ùXçïøwê²¬ås¯pn©cÆ±r®WØÅYÂ.º…ûk3Š{Š®¹~  
+[2015/11/14 01:13:02 000] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1315&gzip=0  
+[2015/11/14 01:13:02 051] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:13:02 051] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:15:43 322 
+============================================================
+[2015/11/14 01:15:43 322] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:15:43 323] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:15:43 323] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:15:43 323] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:15:43 323] sessinfo_l 335  plog_fsize  1257  
+[2015/11/14 01:15:43 323] sessinfo_l 108  get_send_data  
+[2015/11/14 01:15:43 324] sessinfo_l 378  original_data_len  1934  
+[2015/11/14 01:15:43 325] sessinfo_l 399  new encoder success  
+[2015/11/14 01:15:43 326] sessinfo_l 384  compress success, compressed data_len:  793  
+[2015/11/14 01:15:43 326] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:15:43 326] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:15:43 326] sessinfo_l 192  standard  
+[2015/11/14 01:15:43 326] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1934&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 793
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™ØPHjÖEà¢]~Ìê?sŸAK/PMğPQ@G‡QÓÃÛ¡«Ónæ°ÖCh!Y½™åÁ€W OùŸ¯(ú‡ôßk à¦BKôÉ¹œ²¶ösw‡]"-“›™LÑFJG”&Ô!µès®8£XÈp1†\ãôğ[ÇªÊ– l	@µ‹wŠ¢UÁÙ%¨ÇÖğhîmOêšw€÷¢  
+[2015/11/14 01:15:43 326] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1934&gzip=0  
+[2015/11/14 01:15:43 837] network    22   dns resp  0  
+[2015/11/14 01:15:43 837] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 01:15:43 837] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 01:15:44 250] network    72   connected  
+[2015/11/14 01:15:44 251] network    75   send ok  1039  
+[2015/11/14 01:15:44 661] network    78   readable  
+[2015/11/14 01:15:44 662] sessinfo_l 289  perflog http resp  nil  0  udata(a001f298) 
+[2015/11/14 01:15:44 662] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:15:44 662] sessinfo_l 307  new decoder success  
+[2015/11/14 01:15:44 662] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:15:44 663] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:15:44 663] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"lcl":{"error":0,"u_lrs":2713,"u_fau":155,"vad_qlvl":0,"cver":"5.1.0.1043","dur":2864,"id":"asr","l_fau":2025,"l_lrs":2571,"eng_stc":1,"u_lau":2563,"l_lau":2563,"vad_spos":11840,"vad_epos":62080,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_fos":4,"vad_vpos":0,"vad_eos":2563,"csid":"cisr1PdHHBHbpQDGH4iSHH5SxHbZaTQWnr","result":[{"sn":"1","s":"nil"}],"l_frs":2571,"stime":"2015/11/14 01:15:40 454","u_auw_tlen":113904},"logver":"1.1.1","type":"mscv5p"},{"lcl":{"error":0,"u_lrs":2710,"u_fau":154,"u_frs":2710,"vad_spos":11840,"cver":"5.1.0.1043","vad_epos":62080,"id":"asr","l_fau":154,"l_lrs":2565,"eng_stc":2,"u_lau":2557,"dur":2861,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>
+[2015/11/14 01:15:44 663] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:15:44 663] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:15:44 663] sessinfo_l 108  get_send_data  
+[2015/11/14 01:15:44 663] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:15:49 253 
+============================================================
+[2015/11/14 01:15:49 253] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:15:49 253] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:15:49 253] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:15:57 522 
+============================================================
+[2015/11/14 01:15:57 522] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:15:57 523] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:15:57 523] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:15:57 523] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:15:57 523] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:15:57 523] sessinfo_l 108  get_send_data  
+[2015/11/14 01:15:57 524] sessinfo_l 378  original_data_len  685  
+[2015/11/14 01:15:57 524] sessinfo_l 399  new encoder success  
+[2015/11/14 01:15:57 525] sessinfo_l 384  compress success, compressed data_len:  440  
+[2015/11/14 01:15:57 525] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:15:57 525] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:15:57 526] sessinfo_l 192  standard  
+[2015/11/14 01:15:57 526] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=685&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 440
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™HWXŠ5éJDşé#3+‚Ñ’MP|mĞÛVPğK“ƒæËÃ™:Í@lû~FÑ;¤˜˜˜˜y„¦lËU[EœÏÚı¨P)¼·Ï1ºfïL_-$ÚµØ5Ÿè…Å!ëC†Ãó Õá¡ş'"}.3÷‰…±Óewí½ö0çÎq>
+êUØğ¯Ò¸¶éBVP‚ï=;9ÕÏ¸»PĞL£¢ïöäÒrÿö^ƒnjúüYòO¶Ø8È`l' Í'z³—×qØ/¦â' ~¿VÓçHH/}z™'Ëò_§À‘·yÎİ“``}[œbL”¢mÎO‘Š§	¸GÕ¤(eux'*ËÇiÿ:àµÃyÂ5³T]¤”‚Dğ†áû9ÏáV§I(Lø¦B‹ı-ù6s_ö®(§ŞßmhƒÈñ!tGŠOw.ù9ËOì7Û\ÈŠ¤RÈHå3øÀïç¯$Î3Û¤()Wµ_’*"ÛY¸nRM°lÿ¤F=ıóæ›!u 5ôèï,â:b¿à4yCv/Í|“§œ´ÂØ|‹ën:r¡t‰¤àÀ«mÀxÒî‚ºI9Ö:  
+[2015/11/14 01:15:57 526] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=685&gzip=0  
+[2015/11/14 01:15:59 061] network    22   dns resp  0  
+[2015/11/14 01:15:59 061] network    157  gethttpresp dns ok  103.8.32.157  
+[2015/11/14 01:15:59 061] network    47   gethttpresp2  103.8.32.157  80  
+[2015/11/14 01:16:03 316] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:16:03 316] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:16:03 316] sessinfo_l 448  have_data_sending  
+[2015/11/14 01:16:03 370] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:16:03 370] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:16:20 591 
+============================================================
+[2015/11/14 01:16:20 591] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:16:20 591] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:16:20 591] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:16:20 591] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:16:20 591] sessinfo_l 335  plog_fsize  1883  
+[2015/11/14 01:16:20 591] sessinfo_l 108  get_send_data  
+[2015/11/14 01:16:20 593] sessinfo_l 378  original_data_len  2554  
+[2015/11/14 01:16:20 594] sessinfo_l 399  new encoder success  
+[2015/11/14 01:16:20 595] sessinfo_l 384  compress success, compressed data_len:  883  
+[2015/11/14 01:16:20 595] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:16:20 595] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:16:20 595] sessinfo_l 192  standard  
+[2015/11/14 01:16:20 595] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=2554&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 883
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™ØSÈ‹Ş3ë¦¹ıUp@Ï§é0a]%¬•£LvlUÑ„ÅmB¾ÑJMÌ¾Ã«„ì°è ‚›ßV*8¥J!ì^qMLŒYŞ3¸àaÊÉ2:™ü=Ñ?(—0ŸY$T)Ôá^ıˆ€îmÄo1$Ñ²T¹çH8'Bıejiµ¬ÕÁÊC.“A¹)EóX9Ã3OouuÂ;=MíE+ğ^åV´‡	çü7WP	Li‘#•…,ÜAkƒ3/œaã9¯Ó ²£“-g#in[È.õŒ!RTÌ¯"e\Ò%<¥pç'Îùí‰R³ ]SLSlrçf‰ò É§Ö?L¥öûYc"¥ŒØa“UMÃ!EEo–½PRĞ`ïSÀö½M×yï¿_y3³(=\©É4æQL÷Pƒ"älüõäØõËı9	6¼?º:©:¸šLƒŸK,ÖWGÃk.¦m  
+[2015/11/14 01:16:20 595] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=2554&gzip=0  
+[2015/11/14 01:16:21 641] network    22   dns resp  0  
+[2015/11/14 01:16:21 641] network    157  gethttpresp dns ok  103.8.32.157  
+[2015/11/14 01:16:21 641] network    47   gethttpresp2  103.8.32.157  80  
+[2015/11/14 01:16:24 739] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:16:24 739] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:16:24 740] sessinfo_l 448  have_data_sending  
+[2015/11/14 01:16:24 741] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:16:24 741] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 01:17:31 590 
+============================================================
+[2015/11/14 01:17:31 590] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:17:31 591] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:17:31 591] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:17:31 591] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:17:31 591] sessinfo_l 335  plog_fsize  3764  
+[2015/11/14 01:17:31 591] sessinfo_l 108  get_send_data  
+[2015/11/14 01:17:31 594] sessinfo_l 378  original_data_len  4419  
+[2015/11/14 01:17:31 594] sessinfo_l 399  new encoder success  
+[2015/11/14 01:17:31 596] sessinfo_l 384  compress success, compressed data_len:  1049  
+[2015/11/14 01:17:31 596] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:17:31 596] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:17:31 596] sessinfo_l 192  standard  
+[2015/11/14 01:17:31 596] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=4419&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 1049
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™èRHjŞCèJ$ó§F]v’ç—‘%,…¡içİÌ CT  
+[2015/11/14 01:17:31 596] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=4419&gzip=0  
+[2015/11/14 01:17:31 835] network    22   dns resp  0  
+[2015/11/14 01:17:31 835] network    157  gethttpresp dns ok  36.7.172.108  
+[2015/11/14 01:17:31 835] network    47   gethttpresp2  36.7.172.108  80  
+[2015/11/14 01:17:32 170] network    72   connected  
+[2015/11/14 01:17:32 171] network    75   send ok  1296  
+[2015/11/14 01:17:32 551] network    78   readable  
+[2015/11/14 01:17:32 551] sessinfo_l 289  perflog http resp  nil  0  udata(cc132dd8) 
+[2015/11/14 01:17:32 551] sessinfo_l 301  body decrypt success  
+[2015/11/14 01:17:32 551] sessinfo_l 307  new decoder success  
+[2015/11/14 01:17:32 552] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 01:17:32 552] sessinfo_l 260  upload session info OK!  
+[2015/11/14 01:17:32 552] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"type":"mscv5p","lcl":{"vad_qlvl":0,"vad_vpos":0,"result":[{"s":"nil","sn":"1"}],"vad_fos":4,"l_fau":2025,"stime":"2015/11/14 01:17:29 207","l_lrs":2105,"u_auw_tlen":113904,"cver":"5.1.0.1043","vad_eos":268,"dur":2379,"u_lau":267,"error":0,"vad_epos":62080,"u_lrs":2228,"eng_stc":2,"csid":"cisr1PdHHBHbpQiKHhrCHHdx4PWbW12H8N","param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","l_frs":2105,"id":"asr","l_lau":2026,"u_fau":19,"vad_spos":11840},"logver":"1.1.1"},{"type":"mscv5p","lcl":{"vad_qlvl":0,"vad_vpos":0,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ç”µè¯ç»™é»„è¾£æ¤’</rawtext>\n  <confidence>91</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</f
+[2015/11/14 01:17:32 552] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:17:32 552] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:17:32 552] sessinfo_l 108  get_send_data  
+[2015/11/14 01:17:32 552] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 01:17:34 317 
+============================================================
+[2015/11/14 01:17:34 317] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 01:17:34 317] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 01:17:34 317] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 01:17:34 317] sessinfo_l 328  send_sessifo start  
+[2015/11/14 01:17:34 317] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 01:17:34 317] sessinfo_l 108  get_send_data  
+[2015/11/14 01:17:34 318] sessinfo_l 378  original_data_len  1305  
+[2015/11/14 01:17:34 319] sessinfo_l 399  new encoder success  
+[2015/11/14 01:17:34 319] sessinfo_l 384  compress success, compressed data_len:  678  
+[2015/11/14 01:17:34 319] sessinfo_l 387  data encrypt success  
+[2015/11/14 01:17:34 319] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 01:17:34 319] sessinfo_l 192  standard  
+[2015/11/14 01:17:34 319] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1305&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 678
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜Q8jÑEà¢]ŞYfgªèş·y‹‘#RU  
+[2015/11/14 01:17:34 319] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1305&gzip=0  
+[2015/11/14 01:17:34 372] sessinfo_l 429  SYS_MSG_SHUTDOWN  
+[2015/11/14 01:17:34 372] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 11:31:01 570 
+============================================================
+[2015/11/14 11:31:01 570] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 11:31:01 570] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:31:01 570] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:31:01 570] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:31:01 570] sessinfo_l 335  plog_fsize  1247  
+[2015/11/14 11:31:01 570] sessinfo_l 108  get_send_data  
+[2015/11/14 11:31:01 572] sessinfo_l 378  original_data_len  2512  
+[2015/11/14 11:31:01 572] sessinfo_l 399  new encoder success  
+[2015/11/14 11:31:01 572] sessinfo_l 384  compress success, compressed data_len:  859  
+[2015/11/14 11:31:01 572] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:31:01 572] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:31:01 573] sessinfo_l 192  standard  
+[2015/11/14 11:31:01 573] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=2512&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 859
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™ØSÎkÖEàV©Üafïº<¬Q°MaHéLo1{å´ÖC±Miİ  
+[2015/11/14 11:31:01 573] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=2512&gzip=0  
+[2015/11/14 11:31:02 397] network    22   dns resp  0  
+[2015/11/14 11:31:02 397] network    157  gethttpresp dns ok  103.8.32.157  
+[2015/11/14 11:31:02 397] network    47   gethttpresp2  103.8.32.157  80  
+[2015/11/14 11:31:17 398] network    49   resp timeout!  
+[2015/11/14 11:31:17 399] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 11:31:17 399] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 11:31:17 399] sessinfo_l 159  try_send_sessinfo try_times  1  
+[2015/11/14 11:31:17 399] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:31:17 399] sessinfo_l 192  standard  
+[2015/11/14 11:31:17 399] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=2512&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 859
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™ØSÎkÖEàV©Üafïº<¬Q°MaHéLo1{å´ÖC±Miİ  
+[2015/11/14 11:31:17 399] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=2512&gzip=0  
+[2015/11/14 11:31:17 423] network    22   dns resp  0  
+[2015/11/14 11:31:17 423] network    157  gethttpresp dns ok  103.8.32.157  
+[2015/11/14 11:31:17 423] network    47   gethttpresp2  103.8.32.157  80  
+[2015/11/14 11:31:20 141] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:31:20 142] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:31:20 142] sessinfo_l 448  have_data_sending  
+[2015/11/14 11:31:32 423] network    49   resp timeout!  
+[2015/11/14 11:31:32 423] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 11:31:32 423] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 11:31:32 423] sessinfo_l 159  try_send_sessinfo try_times  0  
+[2015/11/14 11:31:32 423] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 11:31:33 821 
+============================================================
+[2015/11/14 11:31:33 822] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 11:31:33 822] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:31:33 822] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:31:33 822] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:31:33 822] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:31:33 822] sessinfo_l 108  get_send_data  
+[2015/11/14 11:31:33 824] sessinfo_l 378  original_data_len  4362  
+[2015/11/14 11:31:33 824] sessinfo_l 399  new encoder success  
+[2015/11/14 11:31:33 825] sessinfo_l 384  compress success, compressed data_len:  1025  
+[2015/11/14 11:31:33 825] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:31:33 825] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:31:33 825] sessinfo_l 192  standard  
+[2015/11/14 11:31:33 825] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=4362&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 1025
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™èRNjŞCëJ$ó§fë÷(‡W²E]!"E—ÓPE©LO£´y‘
+Ü‡h¥  
+[2015/11/14 11:31:33 825] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=4362&gzip=0  
+[2015/11/14 11:31:34 581] network    22   dns resp  0  
+[2015/11/14 11:31:34 581] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 11:31:34 581] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 11:31:34 891] network    72   connected  
+[2015/11/14 11:31:34 893] network    75   send ok  1272  
+[2015/11/14 11:31:35 195] network    78   readable  
+[2015/11/14 11:31:35 195] sessinfo_l 289  perflog http resp  nil  0  udata(c018858) 
+[2015/11/14 11:31:35 195] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:31:35 195] sessinfo_l 307  new decoder success  
+[2015/11/14 11:31:35 196] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:31:35 196] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:31:35 196] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"error":0,"eng_stc":1,"stime":"2015/11/14 11:31:19 575","u_lau":263,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_epos":62080,"dur":565,"l_fau":19,"u_auw_tlen":113904,"vad_qlvl":0,"result":[{"s":"nil","sn":"1"}],"l_frs":271,"id":"asr","u_fau":19,"vad_fos":5,"vad_eos":264,"cver":"5.1.0.1043","vad_vpos":0,"vad_spos":11840,"l_lrs":271,"l_lau":264,"u_lrs":414,"csid":"cisr1PdHHBHbpLitZ1m7Hadjh1DYtXRHdP"},"logver":"1.1.1","type":"mscv5p"},{"lcl":{"error":0,"eng_stc":11,"stime":"2015/11/14 11:30:59 235","u_lau":370,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_epos":127040,"dur":2331,"l_fau":2039,"vad_fos":4,"vad_qlvl":8,"r
+[2015/11/14 11:31:35 196] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:31:35 196] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:31:35 196] sessinfo_l 108  get_send_data  
+[2015/11/14 11:31:35 196] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 11:47:05 811 
+============================================================
+[2015/11/14 11:47:05 811] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 11:47:05 812] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:05 812] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:05 812] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:05 812] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:05 812] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:05 812] sessinfo_l 378  original_data_len  681  
+[2015/11/14 11:47:05 813] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:05 813] sessinfo_l 384  compress success, compressed data_len:  439  
+[2015/11/14 11:47:05 813] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:05 813] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:05 813] sessinfo_l 192  standard  
+[2015/11/14 11:47:05 814] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=681&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 439
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WHŠŞ%éJ´=ÖiéH)ğ·‚ÓWòÕSí«4İî’
+r¦hû~=là›|jå4ÆSG/‚ß2!“`—­@pV0†=7”ğÙš8u
+ÖZÔ  
+[2015/11/14 11:47:05 814] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=681&gzip=0  
+[2015/11/14 11:47:06 077] network    22   dns resp  0  
+[2015/11/14 11:47:06 077] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 11:47:06 077] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 11:47:06 451] network    72   connected  
+[2015/11/14 11:47:06 451] network    75   send ok  684  
+[2015/11/14 11:47:06 902] network    78   readable  
+[2015/11/14 11:47:06 902] sessinfo_l 289  perflog http resp  nil  0  udata(ac01e788) 
+[2015/11/14 11:47:06 902] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:47:06 903] sessinfo_l 307  new decoder success  
+[2015/11/14 11:47:06 903] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:47:06 903] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:47:06 903] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"vad_eos":266,"vad_vpos":0,"vad_qlvl":0,"vad_spos":11840,"vad_fos":4,"eng_stc":1,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_fau":19,"vad_epos":62080,"dur":2376,"u_auw_tlen":113904,"u_lrs":2225,"l_lau":2032,"stime":"2015/11/14 11:47:03 431","cver":"5.1.0.1043","result":[{"sn":"1","s":"nil"}],"csid":"cisr1PdHHBHbpLR84FTvHH1Q3uu01KjWto","id":"asr","error":0,"l_frs":2114,"l_lrs":2114,"u_lau":266,"l_fau":2030},"type":"mscv5p"}]}}  
+[2015/11/14 11:47:06 903] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:06 903] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:06 903] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:06 903] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 11:47:07 487 
+============================================================
+[2015/11/14 11:47:07 487] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 11:47:07 487] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:07 487] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:07 487] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:07 487] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:07 487] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:07 488] sessinfo_l 378  original_data_len  1307  
+[2015/11/14 11:47:07 489] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:07 489] sessinfo_l 384  compress success, compressed data_len:  680  
+[2015/11/14 11:47:07 489] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:07 489] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:07 489] sessinfo_l 192  standard  
+[2015/11/14 11:47:07 489] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 680
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QÄkÖEàV©¸á…^~Şt("Ï„-8ahépïoè0ÛpŸÕC‡&b½uEÙ¼uG¯šVT;†ÜX^AÅ¯ç|öÛÉéÉé[¤vO7ß¥í”¿+7$:  
+[2015/11/14 11:47:07 489] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0  
+[2015/11/14 11:47:08 325] network    22   dns resp  0  
+[2015/11/14 11:47:08 325] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 11:47:08 325] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 11:47:08 742] network    72   connected  
+[2015/11/14 11:47:08 742] network    75   send ok  926  
+[2015/11/14 11:47:09 009] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:09 009] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:09 009] sessinfo_l 448  have_data_sending  
+[2015/11/14 11:47:09 122] network    78   readable  
+[2015/11/14 11:47:09 122] sessinfo_l 289  perflog http resp  nil  0  udata(ac03a7f8) 
+[2015/11/14 11:47:09 122] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:47:09 122] sessinfo_l 307  new decoder success  
+[2015/11/14 11:47:09 122] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:47:09 123] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:47:09 123] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"u_fau":19,"vad_qlvl":8,"vad_eos":369,"eng_stc":0,"u_auw_tlen":159744,"vad_fos":5,"l_fau":19,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","cver":"5.1.0.1043","dur":671,"l_lau":370,"stime":"2015/11/14 11:47:06 813","vad_vpos":0,"l_frs":378,"u_frs":520,"vad_spos":18880,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>62</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dia
+[2015/11/14 11:47:09 123] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:09 123] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:09 123] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:09 124] sessinfo_l 378  original_data_len  1306  
+[2015/11/14 11:47:09 124] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:09 125] sessinfo_l 384  compress success, compressed data_len:  674  
+[2015/11/14 11:47:09 125] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:09 125] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:09 125] sessinfo_l 192  standard  
+[2015/11/14 11:47:09 125] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 674
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHŠÖ5à¢]»ñEs–±L²¨×«±Mi
+~]=„-ÙÁìcàİÄsÿ¤h =wƒÁ˜"¡åâQ):†´–àFG©mcã¸2æ~«õ  
+[2015/11/14 11:47:09 125] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0  
+[2015/11/14 11:47:10 599] network    22   dns resp  0  
+[2015/11/14 11:47:10 600] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 11:47:10 600] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 11:47:10 984] network    72   connected  
+[2015/11/14 11:47:10 984] network    75   send ok  920  
+[2015/11/14 11:47:11 294] network    78   readable  
+[2015/11/14 11:47:11 294] sessinfo_l 289  perflog http resp  nil  0  udata(ac02d128) 
+[2015/11/14 11:47:11 294] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:47:11 294] sessinfo_l 307  new decoder success  
+[2015/11/14 11:47:11 295] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:47:11 295] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:47:11 295] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"u_fau":19,"vad_qlvl":8,"vad_eos":217,"u_lau":217,"u_lrs":368,"vad_fos":4,"l_fau":19,"l_lrs":229,"vad_vpos":0,"stime":"2015/11/14 11:47:08 489","l_lau":218,"vad_epos":79040,"cver":"5.1.0.1043","param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_frs":368,"vad_spos":28160,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>41</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      
+[2015/11/14 11:47:11 295] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:11 295] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:11 295] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:11 295] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 11:47:28 379 
+============================================================
+[2015/11/14 11:47:28 379] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 11:47:28 379] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:28 379] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:28 380] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:28 380] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:28 380] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:28 380] sessinfo_l 378  original_data_len  681  
+[2015/11/14 11:47:28 381] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:28 381] sessinfo_l 384  compress success, compressed data_len:  438  
+[2015/11/14 11:47:28 381] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:28 381] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:28 381] sessinfo_l 192  standard  
+[2015/11/14 11:47:28 381] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=681&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 438
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WÎ«Ş%é¢]©lı”ÁW2²¯ï@QpÔHŞ^$gfÂ(ÏÆ¸Ôhû¸ŞTR5Æ<vƒ„Rq§–ĞªM]>s­C`R¸=&æ¼º|åËæZÕ¦ìk¬]œĞÚdhP‡w½
+(¯,Cõÿ&ê@÷‘³'ûäDÌ5ÈJ¡Å­ğNh>B:rHöÑYé¼À}øÕ1äÎÒZ‚òàù¬<z,ì™¦\qÙ^æ–Ë´Gtà4Oí×MCN¥Ú‘<ì¦n
+#  
+[2015/11/14 11:47:28 381] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=681&gzip=0  
+[2015/11/14 11:47:29 676] network    22   dns resp  0  
+[2015/11/14 11:47:29 676] network    157  gethttpresp dns ok  36.7.172.108  
+[2015/11/14 11:47:29 676] network    47   gethttpresp2  36.7.172.108  80  
+[2015/11/14 11:47:30 054] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:30 054] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:30 054] sessinfo_l 448  have_data_sending  
+[2015/11/14 11:47:30 096] network    72   connected  
+[2015/11/14 11:47:30 097] network    75   send ok  683  
+[2015/11/14 11:47:30 510] network    78   readable  
+[2015/11/14 11:47:30 510] sessinfo_l 289  perflog http resp  nil  0  udata(5000a9f8) 
+[2015/11/14 11:47:30 510] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:47:30 510] sessinfo_l 307  new decoder success  
+[2015/11/14 11:47:30 510] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:47:30 510] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:47:30 510] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"lcl":{"eng_stc":1,"id":"asr","u_fau":19,"u_auw_tlen":113904,"csid":"cisr1PdHHBHbpL6u4ihEHHtTYk7C5vNHLZ","error":0,"vad_spos":11840,"l_lrs":2101,"l_lau":2022,"l_fau":2020,"result":[{"sn":"1","s":"nil"}],"vad_epos":62080,"u_lrs":2222,"vad_vpos":0,"vad_fos":4,"stime":"2015/11/14 11:47:26 003","cver":"5.1.0.1043","l_frs":2101,"vad_qlvl":0,"dur":2373,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_lau":263,"vad_eos":263},"logver":"1.1.1","type":"mscv5p"}]}}  
+[2015/11/14 11:47:30 511] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:30 511] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:30 511] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:30 511] sessinfo_l 378  original_data_len  1307  
+[2015/11/14 11:47:30 512] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:30 512] sessinfo_l 384  compress success, compressed data_len:  677  
+[2015/11/14 11:47:30 512] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:30 512] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:30 512] sessinfo_l 192  standard  
+[2015/11/14 11:47:30 512] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 677
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜Q¸kÑEãTSŞYfËÛöÚØÌâMl=Œ,”=aèÜî¦°Òô«*< "DœAJF€"'9¶n>AE¬¹6Ú2º›œNyÇmÃ9ºÁ±«	Ê´½DKb³µ•ŒÙLÕP~„ò[i¢ÌYiõù yV«@Sh¬W9"3K­iÅ»Hwß‡w£š±8JbÍû)ñ9¢×uÖG3á=^+
+’îÿ-­8ò‰+,:Û˜‚‚ù@äşÊp+©láì]}N¶AÓ÷'ÖìÑ4d•ù¹üª•ìSƒø4>fç}+Ó5Òµ°d·àÏ‘$$.IÒÀC Be)T(Ce8G©O@SQÀ­PüÖìL@®‰wT´ÀmÂáÁTÀî}P$ğ³4–Í†1ñY´zº{~~öìëØ’š:Ùxxz~öãóŞÂÍeÆH@Act5Œé§„¤â@Àg+WÏ&¾’¿%£5ö,l.æ©¥¹kİ}T1P”Ø¬~ËÚËöB)eğ,Nš%òûU”(S=‹FSıò¯'¾bøÜîB_ûğ4ëúËë¾İ´Úrxe
+:´‚ËÜ
+_z}ı2”ØˆÛºïCŸp&8ªf8Ök=èÕ¨DşìÊğŞ2ÖyJ¯lFNÛk°®_%6_¬‡I%WVpM+«E·D’ ­Ã¢I\M×·ã)l­×ã!…Kqã£IÓhÄ¶ÄÄeø©,
+DÊ6®“i%”—3E¬
+Û8a  
+[2015/11/14 11:47:30 512] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0  
+[2015/11/14 11:47:30 805] network    22   dns resp  0  
+[2015/11/14 11:47:30 805] network    157  gethttpresp dns ok  36.7.172.108  
+[2015/11/14 11:47:30 805] network    47   gethttpresp2  36.7.172.108  80  
+[2015/11/14 11:47:31 265] network    72   connected  
+[2015/11/14 11:47:31 265] network    75   send ok  923  
+[2015/11/14 11:47:31 577] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:31 577] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:31 577] sessinfo_l 448  have_data_sending  
+[2015/11/14 11:47:31 634] network    78   readable  
+[2015/11/14 11:47:31 634] sessinfo_l 289  perflog http resp  nil  0  udata(5000a6e8) 
+[2015/11/14 11:47:31 634] sessinfo_l 301  body decrypt success  
+[2015/11/14 11:47:31 634] sessinfo_l 307  new decoder success  
+[2015/11/14 11:47:31 634] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 11:47:31 634] sessinfo_l 260  upload session info OK!  
+[2015/11/14 11:47:31 635] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"lcl":{"eng_stc":1,"id":"asr","u_fau":19,"u_auw_tlen":159744,"csid":"cisr1PdHHBHbpL6p43qaHalPyw7BlXi55K4","error":0,"vad_spos":18880,"u_frs":520,"l_fau":19,"cver":"5.1.0.1043","l_lau":370,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>62</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</contact>\n    </object>\n  </result>\n</nlp>\n"}],"vad_epos":127040,"l_frs":378,"vad_vpos":0,"vad_fos":5,"l_lrs":378,"param
+[2015/11/14 11:47:31 635] sessinfo_l 328  send_sessifo start  
+[2015/11/14 11:47:31 635] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 11:47:31 635] sessinfo_l 108  get_send_data  
+[2015/11/14 11:47:31 635] sessinfo_l 378  original_data_len  1306  
+[2015/11/14 11:47:31 636] sessinfo_l 399  new encoder success  
+[2015/11/14 11:47:31 636] sessinfo_l 384  compress success, compressed data_len:  676  
+[2015/11/14 11:47:31 636] sessinfo_l 387  data encrypt success  
+[2015/11/14 11:47:31 636] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:31 636] sessinfo_l 192  standard  
+[2015/11/14 11:47:31 636] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 676
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÖ5ã¢]»ñ—0sñNl#è·ƒÁT¼´Ö`=¶˜kĞSŒ<Æ€çË€×!ı<æbõÃLÃM˜éòğö;ê²ªõ¬eY-9¾Ç©)V‹bİBİÄ€‹ñS†ë!È®N¹võ¯åŞ)0›¸…6“°-÷p¡H‰b‘?İ·5¨…ECŒşÄeWÚàø8Ó¢_Ôby´=_©Ï–ÔVêùíĞçÇQ,z›PÂaÒT •=}Æ}¡Î§cœÕT®=’MÕ13©?ãåõ7–m&‘KyÛ¦x×F'Š›ãî|ª7ÌÄ¡‚±d<b·ÍÀ¹²¿‚Æ%’`½É_Ş•ólås‡xTéÇN{zöszşìëØ’š:Ùxxºº¸Üzş½Ø¶ÀÃ@›¡9Õ›§xƒ× ¼`6½¨Ñ=´üİ>MLR?á,– ÒÅg]i²T²ÙáŸùäÀïIÁ"Í(OüyŒ,$+ôê\  
+[2015/11/14 11:47:31 636] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0  
+[2015/11/14 11:47:32 030] network    22   dns resp  0  
+[2015/11/14 11:47:32 030] network    157  gethttpresp dns ok  103.8.32.156  
+[2015/11/14 11:47:32 030] network    47   gethttpresp2  103.8.32.156  80  
+[2015/11/14 11:47:47 030] network    49   resp timeout!  
+[2015/11/14 11:47:47 030] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 11:47:47 030] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 11:47:47 031] sessinfo_l 159  try_send_sessinfo try_times  1  
+[2015/11/14 11:47:47 031] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 11:47:47 031] sessinfo_l 192  standard  
+[2015/11/14 11:47:47 031] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 676
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÖ5ã¢]»ñ—0sñNl#è·ƒÁT¼´Ö`=¶˜kĞSŒ<Æ€çË€×!ı<æbõÃLÃM˜éòğö;ê²ªõ¬eY-9¾Ç©)V‹bİBİÄ€‹ñS†ë!È®N¹võ¯åŞ)0›¸…6“°-÷p¡H‰b‘?İ·5¨…ECŒşÄeWÚàø8Ó¢_Ôby´=_©Ï–ÔVêùíĞçÇQ,z›PÂaÒT •=}Æ}¡Î§cœÕT®=’MÕ13©?ãåõ7–m&‘KyÛ¦x×F'Š›ãî|ª7ÌÄ¡‚±d<b·ÍÀ¹²¿‚Æ%’`½É_Ş•ólås‡xTéÇN{zöszşìëØ’š:Ùxxºº¸Üzş½Ø¶ÀÃ@›¡9Õ›§xƒ× ¼`6½¨Ñ=´üİ>MLR?á,– ÒÅg]i²T²ÙáŸùäÀïIÁ"Í(OüyŒ,$+ôê\  
+[2015/11/14 11:47:47 031] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1306&gzip=0  
+[2015/11/14 11:47:47 865] network    22   dns resp  0  
+[2015/11/14 11:47:47 865] network    157  gethttpresp dns ok  103.8.32.156  
+[2015/11/14 11:47:47 865] network    47   gethttpresp2  103.8.32.156  80  
+[2015/11/14 11:47:55 109] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 11:47:55 109] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 11:47:55 109] sessinfo_l 448  have_data_sending  
+[2015/11/14 11:48:02 866] network    49   resp timeout!  
+[2015/11/14 11:48:02 866] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 11:48:02 866] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 11:48:02 866] sessinfo_l 159  try_send_sessinfo try_times  0  
+[2015/11/14 11:48:02 866] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 12:29:48 537 
+============================================================
+[2015/11/14 12:29:48 538] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:29:48 538] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:29:48 538] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:29:48 538] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:29:48 538] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:29:48 538] sessinfo_l 108  get_send_data  
+[2015/11/14 12:29:48 539] sessinfo_l 378  original_data_len  3878  
+[2015/11/14 12:29:48 540] sessinfo_l 399  new encoder success  
+[2015/11/14 12:29:48 540] sessinfo_l 384  compress success, compressed data_len:  960  
+[2015/11/14 12:29:48 540] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:29:48 540] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:29:48 541] sessinfo_l 192  standard  
+[2015/11/14 12:29:48 541] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=3878&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 960
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™èSÈ‹æAãT©»á…résiÂ³™©1’×'$è”Ğ´>\
+èšp²66ÉAgÀ  
+[2015/11/14 12:29:48 541] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=3878&gzip=0  
+[2015/11/14 12:29:48 944] network    22   dns resp  0  
+[2015/11/14 12:29:48 944] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:29:48 944] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:29:49 256] network    72   connected  
+[2015/11/14 12:29:49 258] network    75   send ok  1206  
+[2015/11/14 12:29:49 559] network    78   readable  
+[2015/11/14 12:29:49 559] sessinfo_l 289  perflog http resp  nil  0  udata(3c0081f8) 
+[2015/11/14 12:29:49 559] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:29:49 559] sessinfo_l 307  new decoder success  
+[2015/11/14 12:29:49 560] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:29:49 560] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:29:49 560] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"type":"mscv5p","logver":"1.1.1","lcl":{"u_lau":217,"dur":518,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_frs":367,"vad_qlvl":8,"u_auw_tlen":92160,"id":"asr","eng_stc":1,"u_lrs":367,"error":0,"vad_fos":5,"vad_spos":27520,"vad_vpos":0,"l_fau":19,"u_fau":18,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æˆ‘æƒ³æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>59</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>want|dialpre|contact</focus>\n    <confidence>0|0|0</confidence>\n    <object>\n      <want id=\"65535\">æˆ‘æƒ³</want>\n      <want id=\"65535\">æˆ‘æƒ³è¦</want>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸
+[2015/11/14 12:29:49 560] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:29:49 560] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:29:49 560] sessinfo_l 108  get_send_data  
+[2015/11/14 12:29:49 560] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:29:54 939 
+============================================================
+[2015/11/14 12:29:54 939] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:29:54 939] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:29:54 939] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:29:54 940] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:29:54 940] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:29:54 940] sessinfo_l 108  get_send_data  
+[2015/11/14 12:29:54 940] sessinfo_l 378  original_data_len  1391  
+[2015/11/14 12:29:54 941] sessinfo_l 399  new encoder success  
+[2015/11/14 12:29:54 941] sessinfo_l 384  compress success, compressed data_len:  704  
+[2015/11/14 12:29:54 942] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:29:54 942] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:29:54 942] sessinfo_l 192  standard  
+[2015/11/14 12:29:54 942] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1391&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 704
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÖEà¢]~Ì2ó#s­&ÂlMñ\~–¿_~Èë?hÑA§çB+W!ı<TŞšÄéßCäF¯­wÍ»œ2öÓ6>v„K-L¬EÆÁ`)’ÔÆ©­Ë”ˆM\c,ezÕÉMå¤°ˆ£9Xo7æv1yúÖuD×}TwshA€åÇ™¯”Ê  
+[2015/11/14 12:29:54 942] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1391&gzip=0  
+[2015/11/14 12:29:55 278] network    22   dns resp  0  
+[2015/11/14 12:29:55 278] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:29:55 278] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:29:55 689] network    72   connected  
+[2015/11/14 12:29:55 690] network    75   send ok  950  
+[2015/11/14 12:29:56 117] network    78   readable  
+[2015/11/14 12:29:56 118] sessinfo_l 289  perflog http resp  nil  0  udata(3c008f68) 
+[2015/11/14 12:29:56 118] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:29:56 118] sessinfo_l 307  new decoder success  
+[2015/11/14 12:29:56 118] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:29:56 119] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:29:56 119] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"lcl":{"vad_vpos":0,"error":0,"u_lau":94,"u_lrs":245,"u_frs":245,"u_fau":19,"stime":"2015/11/14 12:29:54 539","vad_qlvl":1,"vad_eos":95,"dur":396,"l_lau":95,"cver":"5.1.0.1043","eng_stc":1,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_spos":0,"vad_epos":30080,"id":"asr","result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æˆ‘æƒ³æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>22</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>want|dialpre|contact</focus>\n    <confidence>0|0|0</confidence>\n    <object>\n      <want id=\"65535\">æˆ‘æƒ³</want>\n      <want id=\"65535\">æˆ‘æƒ³è¦</want>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"1
+[2015/11/14 12:29:56 119] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:29:56 119] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:29:56 119] sessinfo_l 108  get_send_data  
+[2015/11/14 12:29:56 119] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:29:59 311 
+============================================================
+[2015/11/14 12:29:59 311] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:29:59 311] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:29:59 311] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:29:59 311] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:29:59 311] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:29:59 311] sessinfo_l 108  get_send_data  
+[2015/11/14 12:29:59 312] sessinfo_l 378  original_data_len  669  
+[2015/11/14 12:29:59 313] sessinfo_l 399  new encoder success  
+[2015/11/14 12:29:59 313] sessinfo_l 384  compress success, compressed data_len:  431  
+[2015/11/14 12:29:59 313] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:29:59 313] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:29:59 313] sessinfo_l 192  standard  
+[2015/11/14 12:29:59 313] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=669&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 431
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™0WÎw™5É¢U¿CÛ@)¥/şg«–
+tO NîD¹tóÚ6U•¿âÔ¦
+ñ']"	o;•³Ñ[)oÕÆ=ürâ´†~T›Ï›Ğ<¿gqÓØ • Uö6û’%Bá!’$+£„_ÂTF57Çì'8¡šC9>  
+[2015/11/14 12:29:59 313] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=669&gzip=0  
+[2015/11/14 12:30:00 894] network    22   dns resp  0  
+[2015/11/14 12:30:00 894] network    157  gethttpresp dns ok  103.8.32.156  
+[2015/11/14 12:30:00 894] network    47   gethttpresp2  103.8.32.156  80  
+[2015/11/14 12:30:07 700] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:07 700] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:07 700] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:30:14 103] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:14 103] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:14 104] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:30:17 104] network    49   resp timeout!  
+[2015/11/14 12:30:17 104] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 12:30:17 104] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 12:30:17 104] sessinfo_l 159  try_send_sessinfo try_times  1  
+[2015/11/14 12:30:17 104] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:30:17 104] sessinfo_l 192  standard  
+[2015/11/14 12:30:17 104] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=669&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 431
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™0WÎw™5É¢U¿CÛ@)¥/şg«–
+tO NîD¹tóÚ6U•¿âÔ¦
+ñ']"	o;•³Ñ[)oÕÆ=ürâ´†~T›Ï›Ğ<¿gqÓØ • Uö6û’%Bá!’$+£„_ÂTF57Çì'8¡šC9>  
+[2015/11/14 12:30:17 104] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=669&gzip=0  
+[2015/11/14 12:30:18 063] network    22   dns resp  0  
+[2015/11/14 12:30:18 063] network    157  gethttpresp dns ok  103.8.32.156  
+[2015/11/14 12:30:18 063] network    47   gethttpresp2  103.8.32.156  80  
+[2015/11/14 12:30:19 503] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:19 503] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:19 503] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:30:26 919] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:26 919] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:26 919] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:30:32 305] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:32 305] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:32 305] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:30:35 305] network    49   resp timeout!  
+[2015/11/14 12:30:35 306] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 12:30:35 306] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 12:30:35 306] sessinfo_l 159  try_send_sessinfo try_times  0  
+[2015/11/14 12:30:35 306] sessinfo_l 150  save no upload data  
+============================================================
+Time  2015/11/14 12:30:39 694 
+============================================================
+[2015/11/14 12:30:39 695] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:30:39 695] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:39 695] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:39 695] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:39 695] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:39 695] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:39 698] sessinfo_l 378  original_data_len  6083  
+[2015/11/14 12:30:39 698] sessinfo_l 399  new encoder success  
+[2015/11/14 12:30:39 699] sessinfo_l 384  compress success, compressed data_len:  1286  
+[2015/11/14 12:30:39 699] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:30:39 699] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:30:39 699] sessinfo_l 192  standard  
+[2015/11/14 12:30:39 699] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=6083&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 1286
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™è]ÈjÙAâJ´yÜÆkçŞæ°RËS‡k ¡³M-M`|hêÃÀZı&1”í‹+2Y=$@‡:"oşbõcù0Û}¶H-%×o
+îœ|æò{ö~ÊöY9ñiÒNÀÌv4Ë©é1"ç"{Q™&ÔKÚ€4Ôhd¯};â´~O€†},K;‚z"¥FâßÌ3ÛCŞ¬­"so‚5ì@N:÷©ù1ô$>üDkb¬œİü$©)ç6L5.<tÃÔó6*œ#„b sKĞ´ƒ/Ğ’lmÈ:un°ó†1Ù€üÅÛ© i!±V„Tà%ªrpÇq0à@KéÿÔ£y´ Š}œ&Ş°¹§¦¦”Í§›eÛÌİÅô¶:sb¶ØÜ9\;'F0TcD[ıë{]9İGvB  
+[2015/11/14 12:30:39 699] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=6083&gzip=0  
+[2015/11/14 12:30:41 766] network    22   dns resp  0  
+[2015/11/14 12:30:41 766] network    157  gethttpresp dns ok  120.193.118.6  
+[2015/11/14 12:30:41 766] network    47   gethttpresp2  120.193.118.6  80  
+[2015/11/14 12:30:42 077] network    72   connected  
+[2015/11/14 12:30:42 079] network    75   send ok  1533  
+[2015/11/14 12:30:42 389] network    78   readable  
+[2015/11/14 12:30:42 389] sessinfo_l 289  perflog http resp  nil  0  udata(3c031728) 
+[2015/11/14 12:30:42 389] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:30:42 389] sessinfo_l 307  new decoder success  
+[2015/11/14 12:30:42 390] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:30:42 390] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:30:42 390] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"lcl":{"cver":"5.1.0.1043","param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_eos":80,"id":"asr","csid":"cisr1PdHHBHbpgO5+4p3HltuidYmuG-0bc4","dur":382,"vad_qlvl":3,"error":0,"l_frs":92,"u_fau":19,"vad_vpos":0,"l_lrs":92,"vad_spos":0,"result":[{"sn":"1","s":"nil"}],"u_auw_tlen":35200,"eng_stc":0,"vad_fos":6,"stime":"2015/11/14 12:30:07 316","u_lau":79,"l_lau":80,"l_fau":19,"vad_epos":33920,"u_lrs":231},"type":"mscv5p","logver":"1.1.1"},{"lcl":{"error":0,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","eng_stc":10,"id":"asr","l_frs":108,"dur":397,"l_lrs":108,"u_lau":95,"result":[{"sn":"1","
+[2015/11/14 12:30:42 390] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:42 390] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:42 390] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:42 390] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:30:44 081 
+============================================================
+[2015/11/14 12:30:44 081] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:30:44 081] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:44 081] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:44 081] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:44 081] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:44 081] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:44 082] sessinfo_l 378  original_data_len  667  
+[2015/11/14 12:30:44 082] sessinfo_l 399  new encoder success  
+[2015/11/14 12:30:44 083] sessinfo_l 384  compress success, compressed data_len:  430  
+[2015/11/14 12:30:44 083] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:30:44 083] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:30:44 083] sessinfo_l 192  standard  
+[2015/11/14 12:30:44 083] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=667&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 430
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™PWÎkŞ5é¢~¨g ÕFvmp-ÕÂ ‚#%mŒWÑõ¤÷¤ÃuğêXWsGwsrc=®6pz‡ã	GŠÕy:†>È•³^¯×…*Ù%Gsı  
+[2015/11/14 12:30:44 083] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=667&gzip=0  
+[2015/11/14 12:30:44 832] network    22   dns resp  0  
+[2015/11/14 12:30:44 832] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:30:44 832] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:30:45 142] network    72   connected  
+[2015/11/14 12:30:45 142] network    75   send ok  675  
+[2015/11/14 12:30:45 454] network    78   readable  
+[2015/11/14 12:30:45 454] sessinfo_l 289  perflog http resp  nil  0  udata(3c017f28) 
+[2015/11/14 12:30:45 454] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:30:45 455] sessinfo_l 307  new decoder success  
+[2015/11/14 12:30:45 455] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:30:45 455] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:30:45 455] sessinfo_l 263  nil  {"body":{"log":[{"type":"mscv5p","logver":"1.1.1","lcl":{"u_lau":79,"l_lrs":113,"vad_eos":79,"stime":"2015/11/14 12:30:43 697","u_auw_tlen":35200,"result":[{"sn":"1","s":"nil"}],"u_lrs":229,"l_fau":19,"id":"asr","vad_qlvl":3,"cver":"5.1.0.1043","param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_vpos":0,"error":0,"u_fau":19,"l_lau":80,"dur":380,"vad_spos":0,"eng_stc":1,"csid":"cisr1PdHHBHbpgOf+F0kHktbAH-QWgeuWR4","vad_fos":5,"l_frs":113,"vad_epos":34560}}]},"header":{"os_sys":"Linux","appid":"5636fa94"}}  
+[2015/11/14 12:30:45 455] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:45 455] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:45 455] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:45 455] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:30:48 486 
+============================================================
+[2015/11/14 12:30:48 486] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:30:48 487] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:30:48 487] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:30:48 487] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:48 487] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:48 487] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:48 488] sessinfo_l 378  original_data_len  1199  
+[2015/11/14 12:30:48 488] sessinfo_l 399  new encoder success  
+[2015/11/14 12:30:48 489] sessinfo_l 384  compress success, compressed data_len:  656  
+[2015/11/14 12:30:48 489] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:30:48 489] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:30:48 489] sessinfo_l 192  standard  
+[2015/11/14 12:30:48 489] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1199&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 656
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜Q8jÖEã¢™kÌU2óĞsM)Â¿1F ]DÓÀrKXË;vrK°œddEé)IMåâQ‘šÄî¶X€
+Œ,ò»êö9ê¢vˆR—htqˆ€Yæí<ùcÇŸl«1‹òİÄH/m†¦\íå`ì.´MÕ_Év…%ó±¼IˆååÍÁ†5n‹ù\¢ÓŠ•æOL`ìÜƒÆ‚f7óÃÁyÙìn®:WV@NÅõoXQ90ŞŸ¦<7¦ÇDN¶1Q®Qt˜ÓÑ™F!’2e¼åp6\“·Zuæ%HÎ_õQTÖ×Şï¹‹»S`¿oÄ„„x¯ÏõãqÜ×0WW  
+[2015/11/14 12:30:48 489] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1199&gzip=0  
+[2015/11/14 12:30:48 757] network    22   dns resp  0  
+[2015/11/14 12:30:48 757] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:30:48 757] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:30:49 128] network    72   connected  
+[2015/11/14 12:30:49 129] network    75   send ok  902  
+[2015/11/14 12:30:49 437] network    78   readable  
+[2015/11/14 12:30:49 437] sessinfo_l 289  perflog http resp  nil  0  udata(3c024ba8) 
+[2015/11/14 12:30:49 437] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:30:49 437] sessinfo_l 307  new decoder success  
+[2015/11/14 12:30:49 438] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:30:49 438] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:30:49 438] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"l_frs":107,"u_lau":95,"vad_qlvl":4,"vad_vpos":0,"l_lrs":107,"u_auw_tlen":41600,"dur":397,"u_lrs":245,"error":0,"cver":"5.1.0.1043","vad_spos":640,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_epos":36480,"u_fau":18,"l_fau":18,"id":"asr","u_frs":245,"l_lau":95,"vad_fos":5,"stime":"2015/11/14 12:30:48 085","vad_eos":95,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>69</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n    
+[2015/11/14 12:30:49 438] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:30:49 438] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:30:49 438] sessinfo_l 108  get_send_data  
+[2015/11/14 12:30:49 438] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:02 788 
+============================================================
+[2015/11/14 12:44:02 788] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:02 788] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:02 789] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:02 789] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:02 789] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:02 789] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:02 790] sessinfo_l 378  original_data_len  1307  
+[2015/11/14 12:44:02 790] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:02 791] sessinfo_l 384  compress success, compressed data_len:  681  
+[2015/11/14 12:44:02 791] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:02 791] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:02 791] sessinfo_l 192  standard  
+[2015/11/14 12:44:02 791] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 681
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÑ5à¢]»é içyé³T3/~åµuåÇ§Í=ŞQ‹ibŞP¾W<wƒÁ˜"¡OõvS‘šÄÁLÑ'•8 jùc›øcé¹¯·(*5ªÓ=yÚ‘²5n!XÊš_}F¶P‚«€ VÒƒ˜’hQ@ c&7sCŒ±Ï´›ˆ˜:9$ ¬Í-ªˆ³IˆÕT[ÂN„UÑâÃaI'~c@×6ÈËpùæè¾òZz{ü}öèÆûÿÈûş¢ÍÓ	4¨A[a%ÎgÙ„cœŒp$]É®‘÷ÍëT¢efûàPß­=.-ª ¾/Ÿ£?·¾uÊ¼VŞ¼qûÕC°?`ìUuZ
+ÜiŒŒæ=aŒz>Waò‘zâéªªóÒšê’|ª±úfú€ß¾İT"Då  
+[2015/11/14 12:44:02 791] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1307&gzip=0  
+[2015/11/14 12:44:03 115] network    22   dns resp  0  
+[2015/11/14 12:44:03 115] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:44:03 115] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:44:03 401] network    72   connected  
+[2015/11/14 12:44:03 402] network    75   send ok  927  
+[2015/11/14 12:44:03 683] network    78   readable  
+[2015/11/14 12:44:03 683] sessinfo_l 289  perflog http resp  nil  0  udata(ec0151e8) 
+[2015/11/14 12:44:03 683] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:03 683] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:03 684] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:03 684] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:03 684] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"dur":2347,"vad_eos":82,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>41</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</contact>\n    </object>\n  </result>\n</nlp>\n","sn":"1"}],"stime":"2015/11/14 12:44:00 437","eng_stc":11,"vad_epos":32000,"l_frs":2070,"u_fau":21,"csid":"cisr1PdHHBHbpg7EQVFnHHlPwP43HRPtuu","error":0,"u_lrs":2196,"vad_spos":5760,"vad_vpos":0,"l_lrs":2070,"l_lau":2033,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet
+[2015/11/14 12:44:03 684] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:03 684] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:03 684] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:03 684] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:04 175 
+============================================================
+[2015/11/14 12:44:04 175] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:04 175] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:04 175] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:04 175] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:04 175] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:04 175] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:04 176] sessinfo_l 378  original_data_len  666  
+[2015/11/14 12:44:04 177] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:04 177] sessinfo_l 384  compress success, compressed data_len:  434  
+[2015/11/14 12:44:04 177] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:04 177] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:04 177] sessinfo_l 192  standard  
+[2015/11/14 12:44:04 177] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=666&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 434
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™8WŞ‹Ö5àV§|XÖß¼ñlZ/!ÿŒ]a¼Œ–nÂÄ’éS úËİl|â}ã™–<»ÅÌ±b­*¥I
+ğJù3/“¶mü0æ¼%¥½ï ’ÃD¸ØY\9ã  
+[2015/11/14 12:44:04 177] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=666&gzip=0  
+[2015/11/14 12:44:04 455] network    22   dns resp  0  
+[2015/11/14 12:44:04 455] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:44:04 455] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:44:04 729] network    72   connected  
+[2015/11/14 12:44:04 729] network    75   send ok  679  
+[2015/11/14 12:44:05 002] network    78   readable  
+[2015/11/14 12:44:05 003] sessinfo_l 289  perflog http resp  nil  0  udata(f400d8b8) 
+[2015/11/14 12:44:05 003] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:05 003] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:05 003] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:05 004] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:05 004] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"vad_qlvl":3,"l_lau":80,"vad_eos":79,"u_lrs":230,"id":"asr","result":[{"sn":"1","s":"nil"}],"vad_spos":0,"cver":"5.1.0.1043","l_fau":18,"stime":"2015/11/14 12:44:03 790","eng_stc":0,"error":0,"u_lau":79,"vad_vpos":0,"vad_epos":34560,"csid":"cisr1PdHHBHbpg7MQDZ2Hak54wyVBSi1+k","l_frs":112,"dur":381,"l_lrs":112,"vad_fos":4,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_auw_tlen":35200,"u_fau":18},"logver":"1.1.1","type":"mscv5p"}]},"header":{"os_sys":"Linux","appid":"5636fa94"}}  
+[2015/11/14 12:44:05 004] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:05 004] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:05 004] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:05 004] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:05 578 
+============================================================
+[2015/11/14 12:44:05 578] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:05 578] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:05 578] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:05 578] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:05 578] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:05 578] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:05 579] sessinfo_l 378  original_data_len  1198  
+[2015/11/14 12:44:05 580] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:05 580] sessinfo_l 384  compress success, compressed data_len:  669  
+[2015/11/14 12:44:05 580] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:05 580] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:05 580] sessinfo_l 192  standard  
+[2015/11/14 12:44:05 580] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1198&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 669
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QÄkÑ5àV)ZóEİÁØ!Şˆ·¬Q$´%@ÛÁÜ£pçe>¾X°~åÍ+r+™•/ÄâQ‘Êeé!P  
+[2015/11/14 12:44:05 580] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1198&gzip=0  
+[2015/11/14 12:44:05 598] network    22   dns resp  0  
+[2015/11/14 12:44:05 598] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:44:05 598] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:44:06 064] network    72   connected  
+[2015/11/14 12:44:06 065] network    75   send ok  915  
+[2015/11/14 12:44:06 471] network    78   readable  
+[2015/11/14 12:44:06 471] sessinfo_l 289  perflog http resp  nil  0  udata(f401f0a8) 
+[2015/11/14 12:44:06 471] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:06 472] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:06 472] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:06 472] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:06 472] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"l_lau":96,"cver":"5.1.0.1043","eng_stc":1,"u_lau":95,"vad_vpos":0,"u_frs":246,"dur":397,"vad_qlvl":4,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","error":0,"u_auw_tlen":41600,"u_lrs":246,"vad_fos":5,"vad_eos":95,"l_fau":19,"vad_epos":36480,"l_lrs":107,"stime":"2015/11/14 12:44:05 177","l_frs":107,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ä¸ªç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>74</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</co
+[2015/11/14 12:44:06 472] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:06 472] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:06 472] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:06 473] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:19 921 
+============================================================
+[2015/11/14 12:44:19 921] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:19 921] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:19 921] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:19 921] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:19 921] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:19 921] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:19 922] sessinfo_l 378  original_data_len  661  
+[2015/11/14 12:44:19 922] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:19 923] sessinfo_l 384  compress success, compressed data_len:  423  
+[2015/11/14 12:44:19 923] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:19 923] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:19 923] sessinfo_l 192  standard  
+[2015/11/14 12:44:19 923] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 423
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WHjŞ5	ØJ4}˜Ÿ]´˜ sÌ <ñµ¤Å5e@—X¨—àO·Ş%Îzà
+éa”yê”ŠñËK[¥»‡t(Ñºõ.É·Ã­Î„›~k¤Ğ°¿V)[xÈ‰Ù•é<;B9ö/µ›Â©1ë*C^Ék€¶Óp:/—)uŞÀ9ŠŒKò|›ÊñÓ^s±”®ÅÏ{õó|&ÌÙˆ°=à$(È9½Kğd4¸¡Q"™ÑXì$3r—„”N‚Ów—I÷oJ%AhŸÙà±ßW¿ `Crp\g4®>aË¯Ö‹G‚M<‘„K½ø#¥¹r{—DN)9ø#J¢æìÙ²ZÙò²öÊ–y¨ÏòÎŠæ–£šZTD‰LUhí#ÚÕ¹)“Âú6Ÿğ}§Å„öÑ!I<d—ŠšwE¼§­	6”ÏùcC6¤V¥¶-I–ç·’³oh>)—@÷ä˜@¦Õğy3I(¾”ñæÉ-MNL¢ÅÕ4S8«4*Î¼‡)Y×ßp2y%Ÿòø1F°*óº*äsşñ
+BuË¹  
+[2015/11/14 12:44:19 923] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0  
+[2015/11/14 12:44:20 261] network    22   dns resp  0  
+[2015/11/14 12:44:20 261] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:44:20 261] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:44:21 291] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:21 291] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:21 291] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:44:21 595] network    72   connected  
+[2015/11/14 12:44:21 596] network    75   send ok  668  
+[2015/11/14 12:44:21 900] network    78   readable  
+[2015/11/14 12:44:21 900] sessinfo_l 289  perflog http resp  nil  0  udata(ec021558) 
+[2015/11/14 12:44:21 900] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:21 900] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:21 901] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:21 901] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:21 901] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"l_frs":48,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_spos":0,"l_fau":19,"stime":"2015/11/14 12:44:19 582","result":[{"sn":"1","s":"nil"}],"error":0,"csid":"cisr1PdHHBHbpg7oQqbXHdk54wyVBSi1+k","cver":"5.1.0.1043","vad_vpos":0,"l_lrs":48,"eng_stc":10,"vad_fos":4,"l_lau":34,"dur":335,"u_lrs":184,"vad_qlvl":4,"vad_eos":33,"id":"asr","vad_epos":0,"u_lau":33,"u_auw_tlen":16000,"u_fau":19},"logver":"1.1.1","type":"mscv5p"}]},"header":{"os_sys":"Linux","appid":"5636fa94"}}  
+[2015/11/14 12:44:21 901] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:21 901] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:21 901] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:21 902] sessinfo_l 378  original_data_len  1075  
+[2015/11/14 12:44:21 902] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:21 903] sessinfo_l 384  compress success, compressed data_len:  638  
+[2015/11/14 12:44:21 903] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:21 903] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:21 903] sessinfo_l 192  standard  
+[2015/11/14 12:44:21 903] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1075&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 638
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™`VHkÑ5ã-“2¶ÅIçI—s§I/p¶e¯ÁƒD”"ô¡l˜=°˜lBèMuÅİÅ½K€½  
+[2015/11/14 12:44:21 903] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1075&gzip=0  
+[2015/11/14 12:44:22 202] network    22   dns resp  0  
+[2015/11/14 12:44:22 202] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:44:22 202] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:44:22 621] network    72   connected  
+[2015/11/14 12:44:22 622] network    75   send ok  884  
+[2015/11/14 12:44:23 030] network    78   readable  
+[2015/11/14 12:44:23 030] sessinfo_l 289  perflog http resp  nil  0  udata(ec023fa8) 
+[2015/11/14 12:44:23 030] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:23 030] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:23 031] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:23 031] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:23 031] sessinfo_l 263  nil  {"body":{"log":[{"logver":"1.1.1","lcl":{"l_frs":81,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_spos":0,"l_fau":19,"stime":"2015/11/14 12:44:20 922","result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>å°é›ªå¼€ç¯</rawtext>\n  <confidence>34</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>trigger|action</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <trigger id=\"65535\">å°é›ª</trigger>\n      <action id=\"65535\">å¼€ç¯</action>\n    </object>\n  </result>\n</nlp>\n"}],"u_frs":216,"error":0,"csid":"cisr1PdHHBHbpg7vQqFyH1k54wyVBSi1+k","cver":"5.1.0.1043","vad_vpos":0,"u_auw_tlen":25600,"eng_stc":1,"u_lrs":216,"l_lau":65,"dur":367,"id":"asr","vad_eos":64,"vad_fos":5,"l_lrs":81,"vad_epos":24960,"u_
+[2015/11/14 12:44:23 031] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:23 031] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:23 031] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:23 031] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:24 681 
+============================================================
+[2015/11/14 12:44:24 681] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:24 682] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:24 682] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:24 682] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:24 682] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:24 682] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:24 683] sessinfo_l 378  original_data_len  1081  
+[2015/11/14 12:44:24 683] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:24 684] sessinfo_l 384  compress success, compressed data_len:  640  
+[2015/11/14 12:44:24 684] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:24 684] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:24 684] sessinfo_l 192  standard  
+[2015/11/14 12:44:24 684] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1081&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 640
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™`VÈ‹Ö5ãT)Z%1t{¿Ø/È[í„Æ'!!AR”=Üé?tµ˜s®k
+=ö¹•}£ç(>Ì·üçüùüşcÃæ&»c1b*‹]­Q[åÒPÖØdÖ³¨w¦\5.í|JÛùeÍY‘}ôäğ¤`E¬P³_½ıËÍd7€`…‰û‹ãì«%ê“sÁ†xÛ>ş‹ ƒ4vuÒ6ù…=½ —Ó¥ÍŸ·o]oÔt”Të¥ˆÛm¯a/œO^¯ªä¡ò¼…¿œ­nÔIjs•§pÎ\/¬3ÒÌÉr~¸‘p¿è/›ŠæèR·[Ëv¢rNNM¡£-ãEë½¶¿®%Óa'ªŸåK*ãÇx”ü7QÉIÀvÊ‘ÉNcWl^ĞnÜS¢Œ*ÅD‚P ŸàI¸x“n6DOÖ#¢Y1i<<50DLÙõ3Ü1ÀÆØ["sÂÅ›M¿ÒéK"
+:»ùûÿèäöÊZš»Âë_O#Ÿ§ÏÄ• ö5sšó½z¤Á3.s‚­Ò³`İ8A€Í?m\ –ò1Ö•FéóíE|'èØ~ú\Fij]3OG9Í¤/Zkõ)‡m†‚_gr=ùÎëHú$
+ òb¦ŠşÁß4¾xNäHPfãš«ÉaöÂÌƒ8èåhŒ}¶ğ°:£n  
+[2015/11/14 12:44:24 684] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1081&gzip=0  
+[2015/11/14 12:44:25 472] network    22   dns resp  0  
+[2015/11/14 12:44:25 472] network    157  gethttpresp dns ok  111.39.232.35  
+[2015/11/14 12:44:25 472] network    47   gethttpresp2  111.39.232.35  80  
+[2015/11/14 12:44:25 778] network    72   connected  
+[2015/11/14 12:44:25 779] network    75   send ok  886  
+[2015/11/14 12:44:26 053] network    78   readable  
+[2015/11/14 12:44:26 053] sessinfo_l 289  perflog http resp  nil  0  udata(ec012828) 
+[2015/11/14 12:44:26 053] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:26 053] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:26 054] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:26 054] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:26 054] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"type":"mscv5p","logver":"1.1.1","lcl":{"vad_vpos":0,"l_frs":100,"dur":382,"vad_fos":6,"u_frs":231,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_qlvl":2,"vad_eos":80,"u_lrs":231,"error":0,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>å°é›ªå…³ç¯</rawtext>\n  <confidence>84</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>trigger|action</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <trigger id=\"65535\">å°é›ª</trigger>\n      <action id=\"65535\">å…³ç¯</action>\n    </object>\n  </result>\n</nlp>\n","sn":"1"}],"l_lrs":100,"l_lau":81,"l_fau":20,"id":"asr","vad_epos":33600,"u_auw_tlen":35200,"stime":"2015/11/14 12:44:24 297","csid":"cisr1P
+[2015/11/14 12:44:26 054] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:26 054] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:26 054] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:26 054] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:30 024 
+============================================================
+[2015/11/14 12:44:30 024] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:30 025] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:30 025] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:30 025] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:30 025] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:30 025] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:30 026] sessinfo_l 378  original_data_len  660  
+[2015/11/14 12:44:30 026] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:30 027] sessinfo_l 384  compress success, compressed data_len:  424  
+[2015/11/14 12:44:30 027] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:30 027] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:30 027] sessinfo_l 192  standard  
+[2015/11/14 12:44:30 027] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 424
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WÌkŞ5è¢v(n“á@E+»Ñ‚_Í ,_§ ÙÏ@ŒäÿÚ>‘©ñAËæ~öcäË£¸Ex  
+[2015/11/14 12:44:30 027] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0  
+[2015/11/14 12:44:30 282] network    22   dns resp  0  
+[2015/11/14 12:44:30 282] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:44:30 282] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:44:30 583] network    72   connected  
+[2015/11/14 12:44:30 583] network    75   send ok  669  
+[2015/11/14 12:44:31 279] network    78   readable  
+[2015/11/14 12:44:31 279] sessinfo_l 289  perflog http resp  nil  0  udata(ec0207a8) 
+[2015/11/14 12:44:31 279] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:31 279] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:31 280] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:31 280] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:31 280] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"vad_fos":5,"id":"asr","eng_stc":1,"l_fau":19,"result":[{"s":"nil","sn":"1"}],"u_auw_tlen":16000,"csid":"cisr1PdHHBHbpg7VQ77nHtk54wyVBSi1+k","param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_vpos":0,"cver":"5.1.0.1043","u_lrs":184,"l_frs":50,"dur":335,"stime":"2015/11/14 12:44:29 685","l_lau":34,"vad_spos":0,"vad_qlvl":4,"error":0,"vad_eos":34,"u_lau":33,"l_lrs":50,"u_fau":19,"vad_epos":0},"logver":"1.1.1","type":"mscv5p"}]},"header":{"appid":"5636fa94","os_sys":"Linux"}}  
+[2015/11/14 12:44:31 280] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:31 280] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:31 280] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:31 280] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:37 399 
+============================================================
+[2015/11/14 12:44:37 399] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:37 399] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:37 399] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:37 399] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:37 399] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:37 399] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:37 400] sessinfo_l 378  original_data_len  1075  
+[2015/11/14 12:44:37 401] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:37 401] sessinfo_l 384  compress success, compressed data_len:  630  
+[2015/11/14 12:44:37 401] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:37 401] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:37 401] sessinfo_l 192  standard  
+[2015/11/14 12:44:37 401] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1075&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 630
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™`VHkÑ5ã-“2¶%IçI—sCœQïƒ\%GµdUáL™1¨ŞœsÑ‹"åÙ……îQ^õi"±`ºêxÚş°jôK‘¹¿ÀYÑ}ğÛûòIç#vıµ‚|ÄˆºUHmÔ-L[ÈücÒÒ"jZ*Zk3ù/‹«
+êËÚ1áìM‘k_á5%´JJ'AÇP¨"-’Å•IYŞ¯6Ì‰ûìÜHÎ¥Ô¨baÉîT3X¸›¿s?FOÖ«¡Yqi8>50Fb\ßô;Şs ¦3†çVz7©B×nÈkqsúæÎêªÚëz{ÿğü~ïJ­ §®Ÿ·i¢û&Ö¿\R2Î½--JøÔw´h:ó	S D`_3pÈá(1Ñ•ÿ,ŠGrÄz¬…$s’©G‡8ƒFH¼Ûç!‹ôŠ¸¡ûíye¾¡ú•Â“˜jÏæ:OæLx2Wyùåä$ª!©"!Œ8ÖªÍ×Æ~_ã¯å9É¡×›½fšƒ+…ÌŒ¼” Œ–4.—Ò¼ã	«G"Då=ü«[a°VE†RC~İ[M¯!sõ{¯aV@f/"Å*ÙÀ‹ägvAi¼z>æ
+˜Äkv u}½¢—³¥vşËğ¤bmˆé õÕSj0‘•ÆÙ÷›ïõQç)UİoŞk{Ì±‚h~ËwL°”í7u÷_³ükm}<  
+[2015/11/14 12:44:37 401] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1075&gzip=0  
+[2015/11/14 12:44:37 730] network    22   dns resp  0  
+[2015/11/14 12:44:37 730] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:44:37 730] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:44:37 996] network    72   connected  
+[2015/11/14 12:44:37 997] network    75   send ok  876  
+[2015/11/14 12:44:38 342] network    78   readable  
+[2015/11/14 12:44:38 342] sessinfo_l 289  perflog http resp  nil  0  udata(ec040848) 
+[2015/11/14 12:44:38 342] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:38 342] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:38 343] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:38 343] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:38 343] sessinfo_l 263  nil  {"body":{"log":[{"logver":"1.1.1","lcl":{"csid":"cisr1PdHHBHbpg7UQ9OHHlk54wyVBSi1+k","stime":"2015/11/14 12:44:37 029","result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>å°é›ªå¼€ç¯</rawtext>\n  <confidence>35</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>trigger|action</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <trigger id=\"65535\">å°é›ª</trigger>\n      <action id=\"65535\">å¼€ç¯</action>\n    </object>\n  </result>\n</nlp>\n"}],"u_frs":216,"u_fau":19,"vad_spos":0,"error":0,"l_frs":82,"dur":367,"l_lau":66,"vad_epos":21120,"u_auw_tlen":25600,"vad_qlvl":4,"l_lrs":82,"vad_fos":5,"id":"asr","vad_vpos":0,"u_lau":64,"vad_eos":65,"cver":"5.1.0.1043","u_lrs":216,"l_fau":19,"eng_stc":2,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = 
+[2015/11/14 12:44:38 343] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:38 343] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:38 343] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:38 343] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:40 772 
+============================================================
+[2015/11/14 12:44:40 772] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:40 772] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:40 772] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:40 772] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:40 772] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:40 772] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:40 773] sessinfo_l 378  original_data_len  1077  
+[2015/11/14 12:44:40 774] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:40 774] sessinfo_l 384  compress success, compressed data_len:  636  
+[2015/11/14 12:44:40 774] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:40 774] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:40 774] sessinfo_l 192  standard  
+[2015/11/14 12:44:40 774] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1077&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 636
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™`VNkŞ5èTk¹­T·¡?ƒ©ÜÑ)Mp$Õ -¤M¡™Œ„ó8EjÕH~…["-,,_}dÈâÈ|6¹Æ’‰“Iäà£XÒ‘}Œæa›Qñ=Ç“?Ò~»¶Cñ²ıåä¨)ò3œÎ*:½ú˜€æå{ä  
+[2015/11/14 12:44:40 774] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1077&gzip=0  
+[2015/11/14 12:44:40 790] network    22   dns resp  0  
+[2015/11/14 12:44:40 790] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:44:40 790] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:44:41 072] network    72   connected  
+[2015/11/14 12:44:41 073] network    75   send ok  882  
+[2015/11/14 12:44:41 420] network    78   readable  
+[2015/11/14 12:44:41 420] sessinfo_l 289  perflog http resp  nil  0  udata(ec002df8) 
+[2015/11/14 12:44:41 420] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:41 420] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:41 421] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:41 421] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:41 421] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"stime":"2015/11/14 12:44:40 403","error":0,"vad_fos":5,"vad_spos":320,"l_lrs":83,"cver":"5.1.0.1043","l_lau":65,"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>å°é›ªå¼€ç¯</rawtext>\n  <confidence>44</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>trigger|action</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <trigger id=\"65535\">å°é›ª</trigger>\n      <action id=\"65535\">å¼€ç¯</action>\n    </object>\n  </result>\n</nlp>\n","sn":"1"}],"u_lau":65,"vad_qlvl":4,"u_fau":19,"l_frs":83,"vad_eos":65,"eng_stc":0,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_epos":22080,"u_frs":215,"dur":366,"csid":"cisr1PdHHBHbpg7LQ8cQH
+[2015/11/14 12:44:41 421] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:41 421] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:41 421] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:41 421] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:44:44 129 
+============================================================
+[2015/11/14 12:44:44 129] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:44:44 129] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:44:44 129] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:44:44 129] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:44 129] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:44 129] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:44 130] sessinfo_l 378  original_data_len  665  
+[2015/11/14 12:44:44 131] sessinfo_l 399  new encoder success  
+[2015/11/14 12:44:44 131] sessinfo_l 384  compress success, compressed data_len:  429  
+[2015/11/14 12:44:44 131] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:44:44 131] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:44:44 131] sessinfo_l 192  standard  
+[2015/11/14 12:44:44 131] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=665&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 429
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™0THŠ5èJDv¨İe—W*”¯ãµ‚S.ğ×X\‹4)XVŞµ üêF=Ä9ãÈşåbRZ¥¿‡t(Qºô¬IPío­EpÄ¶ğìq9˜‚súñöô?Ô²—ºZ{š?óüdáPLI·ÖåQ=	×NBqÚs¸ô7íénc™—ƒaÊô<Ïå€ÒD	7»ç’ÃøÆlíS<nXºü¦&Ì‡±†ÔÇÎíiB,Xí¨²ç9s£[
+©éêÛ20\ÑAC©ñ½‡ÖX’BRRä>¡~àï«jföà„avÍÃf©&,ŠTDÀ5á½âvf­
+hÏN Ho¡!UŠ¯§a6(˜Îì¸±ºcÇÛ`n†ß~ââ²TÍôXA¦~!à9ÔÉ§”Êªc0¢#ˆ	-2iF2‰÷Ø)¼ãÚ^ÕrÄ…’…Äè`ÔÑL—ÚøïÜEKü
+´¶rvÏÏ(f^Ã6“R™R¹Íó~2¬AÙµDHà•Ïwèg†¤ˆ¡„>ª_Ó¾‡ƒ¼¯wRé|åMuDN÷óİğæÙkšû'mËô  
+[2015/11/14 12:44:44 131] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=665&gzip=0  
+[2015/11/14 12:44:44 884] network    22   dns resp  0  
+[2015/11/14 12:44:44 884] network    157  gethttpresp dns ok  120.193.118.11  
+[2015/11/14 12:44:44 884] network    47   gethttpresp2  120.193.118.11  80  
+[2015/11/14 12:44:45 202] network    72   connected  
+[2015/11/14 12:44:45 202] network    75   send ok  674  
+[2015/11/14 12:44:45 508] network    78   readable  
+[2015/11/14 12:44:45 508] sessinfo_l 289  perflog http resp  nil  0  udata(ec035748) 
+[2015/11/14 12:44:45 508] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:44:45 509] sessinfo_l 307  new decoder success  
+[2015/11/14 12:44:45 509] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:44:45 509] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:44:45 509] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"csid":"cisr1PdHHBHbpg7SQLEcH0k54wyVBSi1+k","l_lau":50,"vad_vpos":0,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","l_frs":61,"eng_stc":10,"u_lau":49,"id":"asr","u_fau":19,"vad_fos":5,"dur":351,"u_lrs":200,"vad_qlvl":3,"vad_spos":0,"error":0,"u_auw_tlen":22400,"l_fau":20,"l_lrs":61,"cver":"5.1.0.1043","result":[{"s":"nil","sn":"1"}],"vad_eos":49,"vad_epos":20480,"stime":"2015/11/14 12:44:43 774"},"type":"mscv5p","logver":"1.1.1"}]},"header":{"appid":"5636fa94","os_sys":"Linux"}}  
+[2015/11/14 12:44:45 509] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:44:45 510] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:44:45 510] sessinfo_l 108  get_send_data  
+[2015/11/14 12:44:45 510] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:48:18 925 
+============================================================
+[2015/11/14 12:48:18 925] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:48:18 925] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:48:18 925] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:48:18 925] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:48:18 925] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:48:18 925] sessinfo_l 108  get_send_data  
+[2015/11/14 12:48:18 926] sessinfo_l 378  original_data_len  1298  
+[2015/11/14 12:48:18 926] sessinfo_l 399  new encoder success  
+[2015/11/14 12:48:18 927] sessinfo_l 384  compress success, compressed data_len:  673  
+[2015/11/14 12:48:18 927] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:48:18 927] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:48:18 927] sessinfo_l 192  standard  
+[2015/11/14 12:48:18 927] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1298&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 673
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QJjÖ5â¦]»ñµµÁ˜ÖpPŸLF‡sEŸÁ€§ÍH™+fŞìShåÍ+r+™•#ÄÂ¬†"DF%$£ïòÛêøÛúYä€ÏÓ}w€€_çÌvòºçJ5Ü€óµM€¶"‡Ğ}Gƒ¤‚.£\+’€áŒXRH”U,ŸŞ¼`C"Ÿ¡gó)¼¿Ì¨š¯·Qwò‰^
+SS‡"ŸÜÃ˜‰‡%mØ’¿Ip$·›¥ò{§Î&ÕÉn¦ NM¡a%%pÄYŞbp\‡¿Vtœ¯©•NUÒ3z=óÑ²g\g/`õ!õu”D\ñ\X¥Æ”‚î»qïä±hKÈsLEò?ƒPÊÅ°Sß¸pÛmÆóÈW-±äÉâ-ˆŸC–¢Üis1^QÎf\é9KbŠËF´{sqW•˜v  
+[2015/11/14 12:48:18 927] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1298&gzip=0  
+[2015/11/14 12:48:21 770] network    22   dns resp  0  
+[2015/11/14 12:48:21 770] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:48:21 770] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:48:22 138] network    72   connected  
+[2015/11/14 12:48:22 139] network    75   send ok  919  
+[2015/11/14 12:48:22 508] network    78   readable  
+[2015/11/14 12:48:22 509] sessinfo_l 289  perflog http resp  nil  0  udata(ec021388) 
+[2015/11/14 12:48:22 509] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:48:22 509] sessinfo_l 307  new decoder success  
+[2015/11/14 12:48:22 509] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:48:22 510] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:48:22 510] sessinfo_l 263  nil  {"body":{"log":[{"logver":"1.1.1","lcl":{"l_lau":125,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","vad_spos":0,"id":"asr","dur":426,"u_lau":124,"cver":"5.1.0.1043","vad_vpos":0,"error":0,"vad_fos":5,"vad_epos":44160,"u_fau":18,"csid":"cisr1PdHHBHbpgLni+FcHCk54wyVBSi1+k","eng_stc":11,"l_fau":19,"u_lrs":276,"result":[{"sn":"1","s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>87</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</
+[2015/11/14 12:48:22 510] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:48:22 510] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:48:22 510] sessinfo_l 108  get_send_data  
+[2015/11/14 12:48:22 510] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:48:23 342 
+============================================================
+[2015/11/14 12:48:23 342] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:48:23 342] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:48:23 342] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:48:23 342] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:48:23 342] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:48:23 342] sessinfo_l 108  get_send_data  
+[2015/11/14 12:48:23 343] sessinfo_l 378  original_data_len  1297  
+[2015/11/14 12:48:23 344] sessinfo_l 399  new encoder success  
+[2015/11/14 12:48:23 344] sessinfo_l 384  compress success, compressed data_len:  675  
+[2015/11/14 12:48:23 344] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:48:23 344] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:48:23 345] sessinfo_l 192  standard  
+[2015/11/14 12:48:23 345] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1297&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 675
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QJjÖ5â¦]»ñEmç1,ncW
+ÕÆMM¾U¼ŒÖ`vçe>Ø¯¨<Æ€çË€×!ı=æfõé!5ÁdÏ${êøÛêø°*ô¦–}ŒlX›çu9âqe­¨ØTT0}âåÍ³ÉÀJZİúÃ½f7
+Y}ÏˆXì§a¥ó8¿½!EÁšVÚBú4 VÒ“ÁA*O‹…N§ŸÍÕ%S '.¯ğiÕíùÔÄ,H®‰wT´ÜeÎÑÃTÀî}\$p»4á¼¸e(—›ns¤æjÚØ¹úÿöÎÂjóÒjóÚ:@kj¶ÅQQ|”D]J¹Í¸ _6®Ó@Àg+WÏ&²–ß³~,l¦ç©¥¹“é]1Hpá³ïvŞ¾ÿ2%Áï‘ 8"Í/·ÜÊöÍúPWás•¾xëØZzûšòFêªZÚ¢îgî<ÆT›ø>fÚ<òSîeÇøi'²Ø];PœÀ¾’k—™3}O#ÛÕ)d³”ÊÄIO¢ŸO_‡F>ôAjnƒcÍ«„†“¬¬—Lo¯JÅ—.•YÕGc`,¯ä,ÖW±©<N!ĞÃ˜‰¤ùÓx(ÎaĞ9îê¢·™†›bK(\F' ¬ÛÓÒb  
+[2015/11/14 12:48:23 345] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1297&gzip=0  
+[2015/11/14 12:48:23 388] network    22   dns resp  0  
+[2015/11/14 12:48:23 388] network    157  gethttpresp dns ok  103.8.32.157  
+[2015/11/14 12:48:23 388] network    47   gethttpresp2  103.8.32.157  80  
+[2015/11/14 12:48:38 389] network    49   resp timeout!  
+[2015/11/14 12:48:38 389] sessinfo_l 289  perflog http resp  nil  10114  nil  
+[2015/11/14 12:48:38 389] sessinfo_l 318  upload session info failed, errcode =  10114  
+[2015/11/14 12:48:38 389] sessinfo_l 159  try_send_sessinfo try_times  1  
+[2015/11/14 12:48:38 389] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:48:38 389] sessinfo_l 192  standard  
+[2015/11/14 12:48:38 389] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1297&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 675
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QJjÖ5â¦]»ñEmç1,ncW
+ÕÆMM¾U¼ŒÖ`vçe>Ø¯¨<Æ€çË€×!ı=æfõé!5ÁdÏ${êøÛêø°*ô¦–}ŒlX›çu9âqe­¨ØTT0}âåÍ³ÉÀJZİúÃ½f7
+Y}ÏˆXì§a¥ó8¿½!EÁšVÚBú4 VÒ“ÁA*O‹…N§ŸÍÕ%S '.¯ğiÕíùÔÄ,H®‰wT´ÜeÎÑÃTÀî}\$p»4á¼¸e(—›ns¤æjÚØ¹úÿöÎÂjóÒjóÚ:@kj¶ÅQQ|”D]J¹Í¸ _6®Ó@Àg+WÏ&²–ß³~,l¦ç©¥¹“é]1Hpá³ïvŞ¾ÿ2%Áï‘ 8"Í/·ÜÊöÍúPWás•¾xëØZzûšòFêªZÚ¢îgî<ÆT›ø>fÚ<òSîeÇøi'²Ø];PœÀ¾’k—™3}O#ÛÕ)d³”ÊÄIO¢ŸO_‡F>ôAjnƒcÍ«„†“¬¬—Lo¯JÅ—.•YÕGc`,¯ä,ÖW±©<N!ĞÃ˜‰¤ùÓx(ÎaĞ9îê¢·™†›bK(\F' ¬ÛÓÒb  
+[2015/11/14 12:48:38 389] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1297&gzip=0  
+[2015/11/14 12:48:38 406] network    22   dns resp  0  
+[2015/11/14 12:48:38 406] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:48:38 406] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:48:38 776] network    72   connected  
+[2015/11/14 12:48:38 776] network    75   send ok  921  
+[2015/11/14 12:48:39 155] network    78   readable  
+[2015/11/14 12:48:39 156] sessinfo_l 289  perflog http resp  nil  0  udata(ec002098) 
+[2015/11/14 12:48:39 156] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:48:39 156] sessinfo_l 307  new decoder success  
+[2015/11/14 12:48:39 156] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:48:39 156] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:48:39 156] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"logver":"1.1.1","lcl":{"stime":"2015/11/14 12:48:22 927","result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>90</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</contact>\n    </object>\n  </result>\n</nlp>\n","sn":"1"}],"u_fau":19,"vad_eos":110,"error":0,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type 
+[2015/11/14 12:48:39 156] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:48:39 156] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:48:39 156] sessinfo_l 108  get_send_data  
+[2015/11/14 12:48:39 156] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:49:53 804 
+============================================================
+[2015/11/14 12:49:53 804] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:49:53 804] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:49:53 804] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:49:53 804] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:49:53 804] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:49:53 804] sessinfo_l 108  get_send_data  
+[2015/11/14 12:49:53 805] sessinfo_l 378  original_data_len  1301  
+[2015/11/14 12:49:53 805] sessinfo_l 399  new encoder success  
+[2015/11/14 12:49:53 806] sessinfo_l 384  compress success, compressed data_len:  675  
+[2015/11/14 12:49:53 806] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:49:53 806] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:49:53 806] sessinfo_l 192  standard  
+[2015/11/14 12:49:53 806] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=1301&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 675
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™˜QHjÑ5à¢]»é„µŒö´ØX`V¬óÕ‡'jç¡l˜
+ib²®s wá	>KMåâQ‘šÄİLUM/‚ÉİêÈ‰Ú‰x„JHœÅöYÎ]ë!›ææ§oÊ´€lÖ,ıÄÁaqãæ¸€Òp¿Öe[â}ûÇù2Ÿ‹Ì;%ôîxÄaÎ„í•ää|Ì%`TR>&Á¯¡K/Z‰_8Ÿ‹•Q±O,ª.³è¤Æ-©}¨/Ç›D“Õ¶&íS´vxzöóóØ’š:Ù{xzvøÿãŞÂÕó	5¬®©M$(cá‹n³\}˜Uß¸Ò`5‚43}\˜±7OÏÄ+$§Œèk¼ÂÙŒèY?záA¸;`Ìù;/×ÀÂtÍús¡Õë$úãÙYz¿
+èz–YØ6ÊZ¥¸q[Õ¤Œøã¥™xB?íõÕÕëc  
+[2015/11/14 12:49:53 806] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=1301&gzip=0  
+[2015/11/14 12:49:54 872] network    22   dns resp  0  
+[2015/11/14 12:49:54 872] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:49:54 872] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:49:55 172] network    72   connected  
+[2015/11/14 12:49:55 173] network    75   send ok  921  
+[2015/11/14 12:49:55 492] network    78   readable  
+[2015/11/14 12:49:55 492] sessinfo_l 289  perflog http resp  nil  0  udata(ec007a78) 
+[2015/11/14 12:49:55 492] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:49:55 492] sessinfo_l 307  new decoder success  
+[2015/11/14 12:49:55 493] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:49:55 493] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:49:55 493] sessinfo_l 263  nil  {"header":{"os_sys":"Linux","appid":"5636fa94"},"body":{"log":[{"logver":"1.1.1","lcl":{"result":[{"s":"<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>\n  <version>1.1</version>\n  <rawtext>æ‰“ç”µè¯ç»™ä¸ä¼Ÿ</rawtext>\n  <confidence>91</confidence>\n  <engine>local</engine>\n  <result>\n    <focus>dialpre|contact</focus>\n    <confidence>0|0</confidence>\n    <object>\n      <dialpre id=\"10001\">æ‰“ç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“ä¸€ä¸ªç”µè¯ç»™</dialpre>\n      <dialpre id=\"10001\">æ‰“</dialpre>\n      <contact id=\"65535\">ä¸ä¼Ÿ</contact>\n    </object>\n  </result>\n</nlp>\n","sn":"1"}],"stime":"2015/11/14 12:49:53 372","u_auw_tlen":51200,"error":0,"vad_eos":128,"csid":"cisr1PdHHBHbpgg33wULHuk54wyVBSi1+k","cver":"5.1.0.1043","l_fau":21,"vad_epos":48000,"u_lrs":278,"l_frs":144,"eng_stc":11,"vad_spos":6400,"u_fau":20,"param"
+[2015/11/14 12:49:55 493] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:49:55 493] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:49:55 493] sessinfo_l 108  get_send_data  
+[2015/11/14 12:49:55 493] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:54:11 314 
+============================================================
+[2015/11/14 12:54:11 314] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:54:11 314] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:54:11 314] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:54:11 314] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:54:11 314] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:54:11 314] sessinfo_l 108  get_send_data  
+[2015/11/14 12:54:11 315] sessinfo_l 378  original_data_len  661  
+[2015/11/14 12:54:11 315] sessinfo_l 399  new encoder success  
+[2015/11/14 12:54:11 316] sessinfo_l 384  compress success, compressed data_len:  423  
+[2015/11/14 12:54:11 316] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:54:11 316] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:54:11 316] sessinfo_l 192  standard  
+[2015/11/14 12:54:11 316] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 423
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WHjŞ5	ØJ4q˜’]Œ˜3s1‚	í`À“0ÿ!¾×ùò”wØÛÍB»ÂBŒRw¹›ÑRÇ˜–(¬L°\j?»(LKieäş ÈõCk<<İó‡ÈÏó¡û~ ôçÑpmÃÏF0Î&j\b„\Á?
+ÔÈL×CJz²şøkzuøôyã
+
+şÖ¬/Z*J¾:—{:„O™Ğ­—C>…Àp@–MH²/	NF‘x©_(,X×7¦®¿/n_aŞ  
+[2015/11/14 12:54:11 316] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0  
+[2015/11/14 12:54:12 682] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:54:12 682] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:54:12 682] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:54:13 218] network    22   dns resp  0  
+[2015/11/14 12:54:13 218] network    157  gethttpresp dns ok  120.193.118.6  
+[2015/11/14 12:54:13 218] network    47   gethttpresp2  120.193.118.6  80  
+[2015/11/14 12:54:13 577] network    72   connected  
+[2015/11/14 12:54:13 578] network    75   send ok  668  
+[2015/11/14 12:54:13 882] network    78   readable  
+[2015/11/14 12:54:13 883] sessinfo_l 289  perflog http resp  nil  0  udata(ec040548) 
+[2015/11/14 12:54:13 883] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:54:13 883] sessinfo_l 307  new decoder success  
+[2015/11/14 12:54:13 883] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:54:13 884] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:54:13 884] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"type":"mscv5p","lcl":{"vad_fos":4,"l_frs":71,"csid":"cisr1PdHHBHbpghqqaDDHkk54wyVBSi1+k","vad_qlvl":4,"dur":351,"l_fau":19,"l_lau":49,"stime":"2015/11/14 12:54:10 961","id":"asr","u_lrs":200,"cver":"5.1.0.1043","error":0,"u_auw_tlen":19200,"l_lrs":71,"vad_eos":49,"vad_vpos":0,"u_fau":19,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","eng_stc":11,"vad_epos":0,"vad_spos":0,"u_lau":48,"result":[{"s":"nil","sn":"1"}]},"logver":"1.1.1"}]}}  
+[2015/11/14 12:54:13 884] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:54:13 884] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:54:13 884] sessinfo_l 108  get_send_data  
+[2015/11/14 12:54:13 884] sessinfo_l 378  original_data_len  661  
+[2015/11/14 12:54:13 885] sessinfo_l 399  new encoder success  
+[2015/11/14 12:54:13 885] sessinfo_l 384  compress success, compressed data_len:  423  
+[2015/11/14 12:54:13 885] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:54:13 886] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:54:13 886] sessinfo_l 192  standard  
+[2015/11/14 12:54:13 886] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 423
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WÎkŞ5é¢~(n0Õ*ğ¤‚  
+[2015/11/14 12:54:13 886] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0  
+[2015/11/14 12:54:14 291] network    22   dns resp  0  
+[2015/11/14 12:54:14 291] network    157  gethttpresp dns ok  220.248.245.151  
+[2015/11/14 12:54:14 291] network    47   gethttpresp2  220.248.245.151  80  
+[2015/11/14 12:54:15 656] network    72   connected  
+[2015/11/14 12:54:15 657] network    75   send ok  668  
+[2015/11/14 12:54:16 038] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:54:16 038] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:54:16 038] sessinfo_l 448  have_data_sending  
+[2015/11/14 12:54:16 229] network    78   readable  
+[2015/11/14 12:54:16 229] sessinfo_l 289  perflog http resp  nil  0  udata(ec020978) 
+[2015/11/14 12:54:16 229] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:54:16 229] sessinfo_l 307  new decoder success  
+[2015/11/14 12:54:16 230] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:54:16 230] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:54:16 230] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"lcl":{"vad_fos":3,"l_frs":89,"csid":"cisr1PdHHBHbpgh7qwwgH5k54wyVBSi1+k","vad_qlvl":4,"vad_eos":63,"l_fau":21,"l_lau":63,"stime":"2015/11/14 12:54:12 316","id":"asr","cver":"5.1.0.1043","result":[{"s":"nil","sn":"1"}],"error":0,"u_auw_tlen":25600,"l_lrs":89,"u_lau":63,"vad_vpos":0,"u_fau":21,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","u_lrs":213,"dur":364,"vad_spos":0,"vad_epos":0,"eng_stc":10},"type":"mscv5p","logver":"1.1.1"}]}}  
+[2015/11/14 12:54:16 230] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:54:16 230] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:54:16 230] sessinfo_l 108  get_send_data  
+[2015/11/14 12:54:16 231] sessinfo_l 378  original_data_len  660  
+[2015/11/14 12:54:16 232] sessinfo_l 399  new encoder success  
+[2015/11/14 12:54:16 232] sessinfo_l 384  compress success, compressed data_len:  422  
+[2015/11/14 12:54:16 232] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:54:16 232] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:54:16 232] sessinfo_l 192  standard  
+[2015/11/14 12:54:16 232] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 422
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™@WÄ‹Ş%è¢]YNM‰à]ï WĞóU¬W*ØÅX5[ÅËCŞù~>Ó›9ö9öã¸bº¦OÑ¹&4	C¤´oZ°çU'‰yáô~7øıƒë˜¸¿àdî>Ñùƒ¢±¼˜ç¨‚Lƒ”àh…¯?e!æÉ-H	ñ‚?˜‹¢öÕXïÒî–:x~dàğóîıÖÕÊ*u.V¹ßíCoL~Cc34§ƒÓ¼±¼)„=#æ15ê`^O²±)í«d`F\TĞÕÈ‚@	UBc¼ÜNj)…´‚—§şšà·Ëç6¶Ä‚\†™w+híƒi-,òm“µ²ƒ¹C“c_ôF÷%‡uE§şËñŸ¢Ş¥ª€ğW]Y9¢â<íæ†M}ÖÿzÕhØOê™ê2zpÇ@kµŸ”÷?¨$Î:ŠÃ¯eØûÙu®õwˆr%ÁŒ&Õ8‹*Ä©¯ÛÅ
+Mò×.ÖrŠ¬øWæÉ†–bÜæ89—ã’ŠQâW‰R›©ëöå‹ız÷(ÍÆ@<´$ï¾ c4âÊtºzÿ
+l±Ë©  
+[2015/11/14 12:54:16 232] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0  
+[2015/11/14 12:54:16 252] network    22   dns resp  0  
+[2015/11/14 12:54:16 252] network    157  gethttpresp dns ok  120.193.118.6  
+[2015/11/14 12:54:16 252] network    47   gethttpresp2  120.193.118.6  80  
+[2015/11/14 12:54:16 641] network    72   connected  
+[2015/11/14 12:54:16 642] network    75   send ok  667  
+[2015/11/14 12:54:16 929] network    78   readable  
+[2015/11/14 12:54:16 929] sessinfo_l 289  perflog http resp  nil  0  udata(ec0188f8) 
+[2015/11/14 12:54:16 929] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:54:16 929] sessinfo_l 307  new decoder success  
+[2015/11/14 12:54:16 930] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:54:16 930] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:54:16 930] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"lcl":{"vad_fos":5,"l_frs":69,"csid":"cisr1PdHHBHbpgh8qwLoHEk54wyVBSi1+k","vad_qlvl":0,"dur":350,"l_fau":18,"l_lau":49,"stime":"2015/11/14 12:54:15 686","id":"asr","result":[{"s":"nil","sn":"1"}],"vad_eos":49,"error":0,"cver":"5.1.0.1043","l_lrs":69,"vad_epos":0,"vad_vpos":0,"u_fau":18,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","eng_stc":1,"u_lrs":199,"vad_spos":0,"u_lau":48,"u_auw_tlen":19200},"type":"mscv5p","logver":"1.1.1"}]}}  
+[2015/11/14 12:54:16 930] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:54:16 930] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:54:16 930] sessinfo_l 108  get_send_data  
+[2015/11/14 12:54:16 930] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:57:46 473 
+============================================================
+[2015/11/14 12:57:46 473] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:57:46 474] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:57:46 474] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:57:46 474] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:57:46 474] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:57:46 474] sessinfo_l 108  get_send_data  
+[2015/11/14 12:57:46 474] sessinfo_l 378  original_data_len  661  
+[2015/11/14 12:57:46 475] sessinfo_l 399  new encoder success  
+[2015/11/14 12:57:46 475] sessinfo_l 384  compress success, compressed data_len:  420  
+[2015/11/14 12:57:46 475] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:57:46 475] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:57:46 475] sessinfo_l 192  standard  
+[2015/11/14 12:57:46 475] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 420
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™HWHj™5èJDv(Ü°r„c”\¬/‚/PÏ ¬)*3ÁˆˆŞ•i×øêÆ×óÁÉòãæär}‘YM
+ğ>uâ‘…ÏoZpùUE3µuxVÆı’KS™\Şï~ù³? [ƒTÂLñDlQ‚F’š<mÓ|)Q‚C£VM
+JYµÌ\ILöu9)½YtÂ82]—FªÌçÜÌév£hÎp›8Á‚ƒ5Âæ&S?ş¶(§ŞÓf‚È*ö)uæ±a›Â!¢$a”òÛµÖ­±]©ïªÛÒ'Z£´4Ù&  
+[2015/11/14 12:57:46 475] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=661&gzip=0  
+[2015/11/14 12:57:46 825] network    22   dns resp  0  
+[2015/11/14 12:57:46 825] network    157  gethttpresp dns ok  120.193.118.6  
+[2015/11/14 12:57:46 825] network    47   gethttpresp2  120.193.118.6  80  
+[2015/11/14 12:57:47 103] network    72   connected  
+[2015/11/14 12:57:47 104] network    75   send ok  665  
+[2015/11/14 12:57:47 381] network    78   readable  
+[2015/11/14 12:57:47 382] sessinfo_l 289  perflog http resp  nil  0  udata(ec022028) 
+[2015/11/14 12:57:47 382] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:57:47 382] sessinfo_l 307  new decoder success  
+[2015/11/14 12:57:47 382] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:57:47 382] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:57:47 382] sessinfo_l 263  nil  {"header":{"appid":"5636fa94","os_sys":"Linux"},"body":{"log":[{"lcl":{"result":[{"s":"nil","sn":"1"}],"l_frs":69,"u_lrs":199,"vad_vpos":0,"id":"asr","vad_epos":0,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","cver":"5.1.0.1043","l_lrs":69,"u_lau":49,"vad_spos":0,"vad_fos":4,"u_fau":19,"dur":350,"u_auw_tlen":22400,"csid":"cisr1PdHHBHbpzH0q8EsHpk54wyVBSi1+k","vad_eos":49,"vad_qlvl":4,"l_lau":49,"stime":"2015/11/14 12:57:46 121","l_fau":19,"error":0,"eng_stc":11},"logver":"1.1.1","type":"mscv5p"}]}}  
+[2015/11/14 12:57:47 382] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:57:47 382] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:57:47 382] sessinfo_l 108  get_send_data  
+[2015/11/14 12:57:47 382] sessinfo_l 373  no data to be sent  
+============================================================
+Time  2015/11/14 12:57:47 812 
+============================================================
+[2015/11/14 12:57:47 812] sessinfo_l 420  SYS_MSG_LOAD  
+[2015/11/14 12:57:47 812] sessinfo_l 437  LOCALSESSION_MSG_CMD  
+[2015/11/14 12:57:47 812] sessinfo_l 446  net_type, flower_mode  nil  nil  
+[2015/11/14 12:57:47 812] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:57:47 812] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:57:47 813] sessinfo_l 108  get_send_data  
+[2015/11/14 12:57:47 813] sessinfo_l 378  original_data_len  660  
+[2015/11/14 12:57:47 813] sessinfo_l 399  new encoder success  
+[2015/11/14 12:57:47 814] sessinfo_l 384  compress success, compressed data_len:  418  
+[2015/11/14 12:57:47 814] sessinfo_l 387  data encrypt success  
+[2015/11/14 12:57:47 814] sessinfo_l 175  send_httpreq_data  
+[2015/11/14 12:57:47 814] sessinfo_l 192  standard  
+[2015/11/14 12:57:47 814] sessinfo_l 245  POST /scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0 HTTP/1.1
+Host: scs.openspeech.cn
+Connection: Keep-Alive
+Content-Type: application/x-gzip;charset=utf-8
+Content-Length: 418
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+}™HWÎkŞ5é¢¹S°@N±¸=‚¯E
+  
+[2015/11/14 12:57:47 814] network    153  gethttpresp  http://scs.openspeech.cn:80/scs?cmd=statsdklog&logver=1.1.1&size=660&gzip=0  
+[2015/11/14 12:57:48 232] network    22   dns resp  0  
+[2015/11/14 12:57:48 232] network    157  gethttpresp dns ok  220.248.245.146  
+[2015/11/14 12:57:48 232] network    47   gethttpresp2  220.248.245.146  80  
+[2015/11/14 12:57:48 541] network    72   connected  
+[2015/11/14 12:57:48 541] network    75   send ok  663  
+[2015/11/14 12:57:48 851] network    78   readable  
+[2015/11/14 12:57:48 851] sessinfo_l 289  perflog http resp  nil  0  udata(ec024678) 
+[2015/11/14 12:57:48 851] sessinfo_l 301  body decrypt success  
+[2015/11/14 12:57:48 851] sessinfo_l 307  new decoder success  
+[2015/11/14 12:57:48 851] sessinfo_l 249  uncompressed httpresp data success, uncompressed data len:  42  
+[2015/11/14 12:57:48 852] sessinfo_l 260  upload session info OK!  
+[2015/11/14 12:57:48 852] sessinfo_l 263  nil  {"body":{"log":[{"lcl":{"result":[{"sn":"1","s":"nil"}],"vad_epos":0,"u_auw_tlen":16000,"u_fau":19,"vad_fos":5,"l_fau":19,"param":"engine_type = local, \t\tasr_res_path = fo|res/asr/common.jet, sample_rate = 16000, \t\tgrm_build_path = res/asr/GrmBuilld, local_grammar = call, \t\tresult_type = xml, result_encoding = utf-8, ","l_lrs":50,"vad_qlvl":4,"vad_spos":0,"l_frs":50,"vad_eos":35,"stime":"2015/11/14 12:57:47 475","error":0,"id":"asr","csid":"cisr1PdHHBHbpzHCq8IiHnk54wyVBSi1+k","eng_stc":2,"vad_vpos":0,"u_lrs":184,"cver":"5.1.0.1043","l_lau":35,"u_lau":35,"dur":335},"logver":"1.1.1","type":"mscv5p"}]},"header":{"os_sys":"Linux","appid":"5636fa94"}}  
+[2015/11/14 12:57:48 852] sessinfo_l 328  send_sessifo start  
+[2015/11/14 12:57:48 852] sessinfo_l 335  plog_fsize  0  
+[2015/11/14 12:57:48 852] sessinfo_l 108  get_send_data  
+[2015/11/14 12:57:48 852] sessinfo_l 373  no data to be sent  

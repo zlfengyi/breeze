@@ -1,0 +1,1448 @@
+============================================================
+Time  2015/11/14 01:06:38 210 
+============================================================
+[2015/11/14 01:06:38 210] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:06:38 211] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:06:38 211] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:06:38 211] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 01:06:38 211] auth       292  auth_user_type=  nil  
+[2015/11/14 01:06:38 211] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:06:38 211] auth       357  authstat =   0  
+[2015/11/14 01:06:38 211] transport  662  net type:  standard  
+[2015/11/14 01:06:38 211] transport  663  net operator:  def  
+[2015/11/14 01:06:38 211] transport  664  use proxy:  false  
+[2015/11/14 01:06:38 211] auth       256  [session] send auth request  
+[2015/11/14 01:06:38 211] transport  829  using cached ip:  59.107.24.5  
+[2015/11/14 01:06:38 211] transport  864  ns_i =  nil  
+[2015/11/14 01:06:38 211] transport  939  [soc] connect   59.107.24.5  80  
+[2015/11/14 01:06:38 211] auth       208  use loginid  
+[2015/11/14 01:06:38 567] transport  388  [soc] [0] connected  
+[2015/11/14 01:06:38 567] transport  978  build http request.  
+[2015/11/14 01:06:38 567] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:06:38 568] transport  410  [soc] [0] send ok  633  
+[2015/11/14 01:06:38 936] transport  419  [soc] [0] readable  
+[2015/11/14 01:06:38 936] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:06:46 926
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:06:46 932
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bLtDItUv3g4n0sPOQMM9fWvHlOuQnYa24sjKxCpEpqry^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:06:38 936] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:06:38 936] transport  1200 port updated  80  
+[2015/11/14 01:06:38 936] transport  1202 switch  80  
+[2015/11/14 01:06:38 936] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:06:38 936] transport  957  [soc] disconnect   
+[2015/11/14 01:06:38 936] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:06:38 937] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:06:38 937] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:06:57 012 
+============================================================
+[2015/11/14 01:06:57 012] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:06:57 012] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:06:57 012] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:06:57 012] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 01:06:57 012] auth       292  auth_user_type=  nil  
+[2015/11/14 01:06:57 012] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:06:57 012] auth       357  authstat =   0  
+[2015/11/14 01:06:57 012] transport  662  net type:  standard  
+[2015/11/14 01:06:57 012] transport  663  net operator:  def  
+[2015/11/14 01:06:57 012] transport  664  use proxy:  false  
+[2015/11/14 01:06:57 012] auth       256  [session] send auth request  
+[2015/11/14 01:06:57 012] transport  829  using cached ip:  116.213.69.200  
+[2015/11/14 01:06:57 012] transport  864  ns_i =  nil  
+[2015/11/14 01:06:57 013] transport  939  [soc] connect   116.213.69.200  80  
+[2015/11/14 01:06:57 013] auth       208  use loginid  
+[2015/11/14 01:06:57 511] transport  388  [soc] [0] connected  
+[2015/11/14 01:06:57 511] transport  978  build http request.  
+[2015/11/14 01:06:57 511] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:06:57 512] transport  410  [soc] [0] send ok  633  
+[2015/11/14 01:06:58 013] transport  419  [soc] [0] readable  
+[2015/11/14 01:06:58 013] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:07:06 175
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:07:06 182
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0brCDXpBNR/uXa9MNZI3Mo2mKjcza75LVUMXlOUKjx5oi^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:06:58 013] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:06:58 013] transport  1200 port updated  80  
+[2015/11/14 01:06:58 013] transport  1202 switch  80  
+[2015/11/14 01:06:58 013] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:06:58 013] transport  957  [soc] disconnect   
+[2015/11/14 01:06:58 013] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:06:58 014] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:06:58 014] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:12:35 127 
+============================================================
+[2015/11/14 01:12:35 128] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:12:35 128] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:12:35 128] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:12:35 128] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 01:12:35 128] auth       292  auth_user_type=  nil  
+[2015/11/14 01:12:35 128] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:12:35 129] auth       357  authstat =   0  
+[2015/11/14 01:12:35 129] transport  662  net type:  standard  
+[2015/11/14 01:12:35 129] transport  663  net operator:  def  
+[2015/11/14 01:12:35 129] transport  664  use proxy:  false  
+[2015/11/14 01:12:35 129] auth       256  [session] send auth request  
+[2015/11/14 01:12:35 129] transport  829  using cached ip:  59.107.24.7  
+[2015/11/14 01:12:35 129] transport  864  ns_i =  nil  
+[2015/11/14 01:12:35 129] transport  939  [soc] connect   59.107.24.7  80  
+[2015/11/14 01:12:35 129] auth       208  use loginid  
+[2015/11/14 01:12:36 664] transport  388  [soc] [0] connected  
+[2015/11/14 01:12:36 664] transport  978  build http request.  
+[2015/11/14 01:12:36 664] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:12:36 665] transport  410  [soc] [0] send ok  633  
+[2015/11/14 01:12:37 075] transport  419  [soc] [0] readable  
+[2015/11/14 01:12:37 075] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:12:37 263
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:12:37 271
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bEMiwxyvYuhBgT^lnEDz7knyMHQG6ah7kF6zlyvFhnuO^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:12:37 075] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:12:37 075] transport  1200 port updated  80  
+[2015/11/14 01:12:37 076] transport  1202 switch  80  
+[2015/11/14 01:12:37 076] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:12:37 076] transport  957  [soc] disconnect   
+[2015/11/14 01:12:37 076] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:12:37 076] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:12:37 077] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:12:52 606 
+============================================================
+[2015/11/14 01:12:52 606] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:12:52 606] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:12:52 606] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:12:52 606] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 01:12:52 606] auth       292  auth_user_type=  nil  
+[2015/11/14 01:12:52 606] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:12:52 606] auth       357  authstat =   0  
+[2015/11/14 01:12:52 606] transport  662  net type:  standard  
+[2015/11/14 01:12:52 606] transport  663  net operator:  def  
+[2015/11/14 01:12:52 606] transport  664  use proxy:  false  
+[2015/11/14 01:12:52 606] auth       256  [session] send auth request  
+[2015/11/14 01:12:52 606] transport  829  using cached ip:  116.213.69.200  
+[2015/11/14 01:12:52 606] transport  864  ns_i =  nil  
+[2015/11/14 01:12:52 606] transport  939  [soc] connect   116.213.69.200  80  
+[2015/11/14 01:12:52 607] auth       208  use loginid  
+[2015/11/14 01:12:53 012] transport  388  [soc] [0] connected  
+[2015/11/14 01:12:53 012] transport  978  build http request.  
+[2015/11/14 01:12:53 013] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:12:53 014] transport  410  [soc] [0] send ok  641  
+[2015/11/14 01:12:53 419] transport  419  [soc] [0] readable  
+[2015/11/14 01:12:53 419] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:12:53 757
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:12:53 764
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bx^IuMame9Bj/xQ4cHt07uDO7Zv/SNr4tBmYEhYS2z9S^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:12:53 419] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:12:53 419] transport  1200 port updated  80  
+[2015/11/14 01:12:53 419] transport  1202 switch  80  
+[2015/11/14 01:12:53 419] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:12:53 419] transport  957  [soc] disconnect   
+[2015/11/14 01:12:53 419] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:12:53 420] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:12:53 420] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:15:43 437 
+============================================================
+[2015/11/14 01:15:43 437] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:15:43 437] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:15:43 437] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:15:43 437] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 01:15:43 437] auth       292  auth_user_type=  nil  
+[2015/11/14 01:15:43 437] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:15:43 437] auth       357  authstat =   0  
+[2015/11/14 01:15:43 437] transport  662  net type:  standard  
+[2015/11/14 01:15:43 437] transport  663  net operator:  def  
+[2015/11/14 01:15:43 437] transport  664  use proxy:  false  
+[2015/11/14 01:15:43 437] auth       256  [session] send auth request  
+[2015/11/14 01:15:43 437] transport  829  using cached ip:  117.121.21.147  
+[2015/11/14 01:15:43 437] transport  864  ns_i =  nil  
+[2015/11/14 01:15:43 437] transport  939  [soc] connect   117.121.21.147  80  
+[2015/11/14 01:15:43 437] auth       208  use loginid  
+[2015/11/14 01:15:43 879] transport  388  [soc] [0] connected  
+[2015/11/14 01:15:43 879] transport  978  build http request.  
+[2015/11/14 01:15:43 880] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:15:43 880] transport  410  [soc] [0] send ok  633  
+[2015/11/14 01:15:44 336] transport  419  [soc] [0] readable  
+[2015/11/14 01:15:44 336] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:15:45 62
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:15:45 70
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bH7In94T4TP/^QZSPyh3kIuyODLzUlB4Wh^j2q^UctUK^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:15:44 336] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:15:44 336] transport  1200 port updated  80  
+[2015/11/14 01:15:44 336] transport  1202 switch  80  
+[2015/11/14 01:15:44 336] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:15:44 336] transport  957  [soc] disconnect   
+[2015/11/14 01:15:44 336] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:15:44 337] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:15:44 337] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:15:54 377 
+============================================================
+[2015/11/14 01:15:54 377] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:15:54 377] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:15:54 377] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:15:54 377] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 01:15:54 377] auth       292  auth_user_type=  nil  
+[2015/11/14 01:15:54 377] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:15:54 377] auth       357  authstat =   0  
+[2015/11/14 01:15:54 377] transport  662  net type:  standard  
+[2015/11/14 01:15:54 377] transport  663  net operator:  def  
+[2015/11/14 01:15:54 377] transport  664  use proxy:  false  
+[2015/11/14 01:15:54 377] auth       256  [session] send auth request  
+[2015/11/14 01:15:54 377] transport  829  using cached ip:  116.213.69.200  
+[2015/11/14 01:15:54 377] transport  864  ns_i =  nil  
+[2015/11/14 01:15:54 377] transport  939  [soc] connect   116.213.69.200  80  
+[2015/11/14 01:15:54 378] auth       208  use loginid  
+[2015/11/14 01:15:54 896] transport  388  [soc] [0] connected  
+[2015/11/14 01:15:54 896] transport  978  build http request.  
+[2015/11/14 01:15:54 897] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:15:54 898] transport  410  [soc] [0] send ok  641  
+[2015/11/14 01:15:55 493] transport  419  [soc] [0] readable  
+[2015/11/14 01:15:55 494] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:15:56 181
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:15:56 188
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bED2tKGBAO82aU0UnbRxKyL1Q3fVRA2DUCcvQlg0UjDm^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:15:55 494] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:15:55 494] transport  1200 port updated  80  
+[2015/11/14 01:15:55 494] transport  1202 switch  80  
+[2015/11/14 01:15:55 494] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:15:55 494] transport  957  [soc] disconnect   
+[2015/11/14 01:15:55 494] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:15:55 495] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:15:55 495] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:16:17 769 
+============================================================
+[2015/11/14 01:16:17 769] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:16:17 769] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:16:17 769] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:16:17 769] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 01:16:17 769] auth       292  auth_user_type=  nil  
+[2015/11/14 01:16:17 769] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:16:17 769] auth       357  authstat =   0  
+[2015/11/14 01:16:17 769] transport  662  net type:  standard  
+[2015/11/14 01:16:17 769] transport  663  net operator:  def  
+[2015/11/14 01:16:17 769] transport  664  use proxy:  false  
+[2015/11/14 01:16:17 769] auth       256  [session] send auth request  
+[2015/11/14 01:16:17 769] transport  829  using cached ip:  120.197.234.165  
+[2015/11/14 01:16:17 769] transport  864  ns_i =  nil  
+[2015/11/14 01:16:17 769] transport  939  [soc] connect   120.197.234.165  80  
+[2015/11/14 01:16:17 769] auth       208  use loginid  
+[2015/11/14 01:16:18 073] transport  388  [soc] [0] connected  
+[2015/11/14 01:16:18 073] transport  978  build http request.  
+[2015/11/14 01:16:18 073] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:16:18 074] transport  410  [soc] [0] send ok  641  
+[2015/11/14 01:16:18 375] transport  419  [soc] [0] readable  
+[2015/11/14 01:16:18 376] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/14 17:16:19 167
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/14 17:16:19 176
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bVLf2QJ7LmXs0g/z24A/oRfpg3jDTdHh7exMiUtJ^YYS^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 01:16:18 376] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 01:16:18 376] transport  1200 port updated  80  
+[2015/11/14 01:16:18 376] transport  1202 switch  80  
+[2015/11/14 01:16:18 376] auth       144  [trans] [id = auth] readable  
+[2015/11/14 01:16:18 376] transport  957  [soc] disconnect   
+[2015/11/14 01:16:18 376] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 01:16:18 377] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 01:16:18 377] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 01:17:33 273 
+============================================================
+[2015/11/14 01:17:33 273] auth       428  SYS_MSG_LOAD  
+[2015/11/14 01:17:33 273] auth       278  AUTH_MSG_INIT  
+[2015/11/14 01:17:33 273] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 01:17:33 273] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 01:17:33 273] auth       292  auth_user_type=  nil  
+[2015/11/14 01:17:33 273] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 01:17:33 273] auth       357  authstat =   0  
+[2015/11/14 01:17:33 273] transport  662  net type:  standard  
+[2015/11/14 01:17:33 273] transport  663  net operator:  def  
+[2015/11/14 01:17:33 273] transport  664  use proxy:  false  
+[2015/11/14 01:17:33 273] auth       256  [session] send auth request  
+[2015/11/14 01:17:33 273] transport  829  using cached ip:  116.213.69.200  
+[2015/11/14 01:17:33 273] transport  864  ns_i =  nil  
+[2015/11/14 01:17:33 273] transport  939  [soc] connect   116.213.69.200  80  
+[2015/11/14 01:17:33 274] auth       208  use loginid  
+[2015/11/14 01:17:33 779] transport  388  [soc] [0] connected  
+[2015/11/14 01:17:33 779] transport  978  build http request.  
+[2015/11/14 01:17:33 779] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 01:17:33 779] transport  410  [soc] [0] send ok  633  
+[2015/11/14 01:17:34 370] auth       434  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2015/11/14 10:31:16 704 
+============================================================
+[2015/11/14 10:31:16 704] auth       428  SYS_MSG_LOAD  
+[2015/11/14 10:31:16 705] auth       278  AUTH_MSG_INIT  
+[2015/11/14 10:31:16 705] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 10:31:16 705] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 10:31:16 705] auth       292  auth_user_type=  nil  
+[2015/11/14 10:31:16 705] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 10:31:16 705] auth       357  authstat =   0  
+[2015/11/14 10:31:16 705] transport  662  net type:  standard  
+[2015/11/14 10:31:16 705] transport  663  net operator:  def  
+[2015/11/14 10:31:16 705] transport  664  use proxy:  false  
+[2015/11/14 10:31:16 705] auth       256  [session] send auth request  
+[2015/11/14 10:31:16 705] transport  829  using cached ip:  120.197.234.167  
+[2015/11/14 10:31:16 705] transport  864  ns_i =  nil  
+[2015/11/14 10:31:16 705] transport  939  [soc] connect   120.197.234.167  80  
+[2015/11/14 10:31:16 705] auth       208  use loginid  
+[2015/11/14 10:31:16 995] transport  388  [soc] [0] connected  
+[2015/11/14 10:31:16 995] transport  978  build http request.  
+[2015/11/14 10:31:16 995] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 10:31:16 996] transport  410  [soc] [0] send ok  633  
+[2015/11/14 10:31:17 292] transport  419  [soc] [0] readable  
+[2015/11/14 10:31:17 292] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 02:31:19 617
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 02:31:19 624
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bwcTqtDdOgbOEhbjiy9lcvI90^QXtU8WDRDLiU1y7nf6^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 10:31:17 292] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 10:31:17 292] transport  1200 port updated  80  
+[2015/11/14 10:31:17 292] transport  1202 switch  80  
+[2015/11/14 10:31:17 292] auth       144  [trans] [id = auth] readable  
+[2015/11/14 10:31:17 292] transport  957  [soc] disconnect   
+[2015/11/14 10:31:17 292] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 10:31:17 293] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 10:31:17 293] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 10:32:07 682 
+============================================================
+[2015/11/14 10:32:07 682] auth       428  SYS_MSG_LOAD  
+[2015/11/14 10:32:07 683] auth       278  AUTH_MSG_INIT  
+[2015/11/14 10:32:07 683] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 10:32:07 683] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 10:32:07 683] auth       292  auth_user_type=  nil  
+[2015/11/14 10:32:07 683] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 10:32:07 683] auth       357  authstat =   0  
+[2015/11/14 10:32:07 683] transport  662  net type:  standard  
+[2015/11/14 10:32:07 683] transport  663  net operator:  def  
+[2015/11/14 10:32:07 683] transport  664  use proxy:  false  
+[2015/11/14 10:32:07 683] auth       256  [session] send auth request  
+[2015/11/14 10:32:07 683] transport  829  using cached ip:  59.107.24.7  
+[2015/11/14 10:32:07 683] transport  864  ns_i =  nil  
+[2015/11/14 10:32:07 683] transport  939  [soc] connect   59.107.24.7  80  
+[2015/11/14 10:32:07 683] auth       208  use loginid  
+[2015/11/14 10:32:08 045] transport  388  [soc] [0] connected  
+[2015/11/14 10:32:08 045] transport  978  build http request.  
+[2015/11/14 10:32:08 045] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 10:32:08 046] transport  410  [soc] [0] send ok  633  
+[2015/11/14 10:32:08 436] transport  419  [soc] [0] readable  
+[2015/11/14 10:32:08 436] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 02:32:10 726
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 02:32:10 733
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bl7yJ40pnWUe8RESltCCH3N/fQBY3EWb/OhWRkQNn2Xe^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 10:32:08 436] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 10:32:08 436] transport  1200 port updated  80  
+[2015/11/14 10:32:08 436] transport  1202 switch  80  
+[2015/11/14 10:32:08 436] auth       144  [trans] [id = auth] readable  
+[2015/11/14 10:32:08 436] transport  957  [soc] disconnect   
+[2015/11/14 10:32:08 436] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 10:32:08 437] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 10:32:08 437] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:05:07 832 
+============================================================
+[2015/11/14 11:05:07 832] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:05:07 832] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:05:07 832] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:05:07 832] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:05:07 832] auth       292  auth_user_type=  nil  
+[2015/11/14 11:05:07 832] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:05:07 832] auth       357  authstat =   0  
+[2015/11/14 11:05:07 832] transport  662  net type:  standard  
+[2015/11/14 11:05:07 832] transport  663  net operator:  def  
+[2015/11/14 11:05:07 832] transport  664  use proxy:  false  
+[2015/11/14 11:05:07 832] auth       256  [session] send auth request  
+[2015/11/14 11:05:07 832] transport  829  using cached ip:  59.107.24.5  
+[2015/11/14 11:05:07 832] transport  864  ns_i =  nil  
+[2015/11/14 11:05:07 832] transport  939  [soc] connect   59.107.24.5  80  
+[2015/11/14 11:05:07 833] auth       208  use loginid  
+[2015/11/14 11:05:08 185] transport  388  [soc] [0] connected  
+[2015/11/14 11:05:08 185] transport  978  build http request.  
+[2015/11/14 11:05:08 185] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:05:08 186] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:05:08 548] transport  419  [soc] [0] readable  
+[2015/11/14 11:05:08 548] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:05:15 268
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:05:15 274
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0b^^0V/Wo/rZ0DW5gDLpOU2MJrVgEYnh4Ab1nuLNlm8iS^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:05:08 548] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:05:08 548] transport  1200 port updated  80  
+[2015/11/14 11:05:08 548] transport  1202 switch  80  
+[2015/11/14 11:05:08 548] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:05:08 548] transport  957  [soc] disconnect   
+[2015/11/14 11:05:08 549] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:05:08 549] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:05:08 549] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:06:16 023 
+============================================================
+[2015/11/14 11:06:16 023] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:06:16 023] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:06:16 023] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:06:16 023] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:06:16 023] auth       292  auth_user_type=  nil  
+[2015/11/14 11:06:16 023] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:06:16 023] auth       357  authstat =   0  
+[2015/11/14 11:06:16 023] transport  662  net type:  standard  
+[2015/11/14 11:06:16 023] transport  663  net operator:  def  
+[2015/11/14 11:06:16 023] transport  664  use proxy:  false  
+[2015/11/14 11:06:16 023] auth       256  [session] send auth request  
+[2015/11/14 11:06:16 023] transport  829  using cached ip:  59.107.24.11  
+[2015/11/14 11:06:16 023] transport  864  ns_i =  nil  
+[2015/11/14 11:06:16 023] transport  939  [soc] connect   59.107.24.11  80  
+[2015/11/14 11:06:16 024] auth       208  use loginid  
+[2015/11/14 11:06:16 340] transport  388  [soc] [0] connected  
+[2015/11/14 11:06:16 340] transport  978  build http request.  
+[2015/11/14 11:06:16 340] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:06:16 340] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:06:16 637] transport  419  [soc] [0] readable  
+[2015/11/14 11:06:16 637] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 02:56:11 455
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 02:56:11 461
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bQGxn^Q/l5uV0GqoZ2ErmDSWGFPemQg7FcAqsPCn9JL^^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:06:16 637] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:06:16 637] transport  1200 port updated  80  
+[2015/11/14 11:06:16 637] transport  1202 switch  80  
+[2015/11/14 11:06:16 637] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:06:16 637] transport  957  [soc] disconnect   
+[2015/11/14 11:06:16 637] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:06:16 638] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:06:16 638] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:06:35 943 
+============================================================
+[2015/11/14 11:06:35 943] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:06:35 943] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:06:35 944] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:06:35 944] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 11:06:35 944] auth       292  auth_user_type=  nil  
+[2015/11/14 11:06:35 944] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:06:35 944] auth       357  authstat =   0  
+[2015/11/14 11:06:35 944] transport  662  net type:  standard  
+[2015/11/14 11:06:35 944] transport  663  net operator:  def  
+[2015/11/14 11:06:35 944] transport  664  use proxy:  false  
+[2015/11/14 11:06:35 944] auth       256  [session] send auth request  
+[2015/11/14 11:06:35 944] transport  829  using cached ip:  59.107.24.3  
+[2015/11/14 11:06:35 944] transport  864  ns_i =  nil  
+[2015/11/14 11:06:35 944] transport  939  [soc] connect   59.107.24.3  80  
+[2015/11/14 11:06:35 944] auth       208  use loginid  
+[2015/11/14 11:06:36 262] transport  388  [soc] [0] connected  
+[2015/11/14 11:06:36 262] transport  978  build http request.  
+[2015/11/14 11:06:36 262] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:06:36 263] transport  410  [soc] [0] send ok  641  
+[2015/11/14 11:06:36 649] transport  419  [soc] [0] readable  
+[2015/11/14 11:06:36 649] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:06:43 546
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:06:43 552
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bt5myTryjuV1P32PGqic66w5tgkNaITldICjJo/su8Wi^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:06:36 649] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:06:36 649] transport  1200 port updated  80  
+[2015/11/14 11:06:36 649] transport  1202 switch  80  
+[2015/11/14 11:06:36 649] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:06:36 649] transport  957  [soc] disconnect   
+[2015/11/14 11:06:36 649] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:06:36 650] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:06:36 650] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:06:56 166 
+============================================================
+[2015/11/14 11:06:56 166] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:06:56 166] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:06:56 166] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:06:56 166] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:06:56 166] auth       292  auth_user_type=  nil  
+[2015/11/14 11:06:56 166] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:06:56 167] auth       357  authstat =   0  
+[2015/11/14 11:06:56 167] transport  662  net type:  standard  
+[2015/11/14 11:06:56 167] transport  663  net operator:  def  
+[2015/11/14 11:06:56 167] transport  664  use proxy:  false  
+[2015/11/14 11:06:56 167] auth       256  [session] send auth request  
+[2015/11/14 11:06:56 167] transport  829  using cached ip:  59.107.24.7  
+[2015/11/14 11:06:56 167] transport  864  ns_i =  nil  
+[2015/11/14 11:06:56 167] transport  939  [soc] connect   59.107.24.7  80  
+[2015/11/14 11:06:56 167] auth       208  use loginid  
+[2015/11/14 11:06:56 476] transport  388  [soc] [0] connected  
+[2015/11/14 11:06:56 476] transport  978  build http request.  
+[2015/11/14 11:06:56 476] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:06:56 477] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:06:56 784] transport  419  [soc] [0] readable  
+[2015/11/14 11:06:56 785] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:07:03 825
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:07:03 832
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bzUC3cmqPf9qBlNfbI54aZ7zKA1BYQ/pp3wFThqK6bGu^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:06:56 785] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:06:56 785] transport  1200 port updated  80  
+[2015/11/14 11:06:56 785] transport  1202 switch  80  
+[2015/11/14 11:06:56 785] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:06:56 785] transport  957  [soc] disconnect   
+[2015/11/14 11:06:56 785] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:06:56 786] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:06:56 786] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:22:42 142 
+============================================================
+[2015/11/14 11:22:42 142] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:22:42 142] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:22:42 142] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:22:42 142] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:22:42 142] auth       292  auth_user_type=  nil  
+[2015/11/14 11:22:42 142] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:22:42 142] auth       357  authstat =   0  
+[2015/11/14 11:22:42 143] transport  662  net type:  standard  
+[2015/11/14 11:22:42 143] transport  663  net operator:  def  
+[2015/11/14 11:22:42 143] transport  664  use proxy:  false  
+[2015/11/14 11:22:42 143] auth       256  [session] send auth request  
+[2015/11/14 11:22:42 143] transport  829  using cached ip:  117.121.21.146  
+[2015/11/14 11:22:42 143] transport  864  ns_i =  nil  
+[2015/11/14 11:22:42 143] transport  939  [soc] connect   117.121.21.146  80  
+[2015/11/14 11:22:42 143] auth       208  use loginid  
+[2015/11/14 11:22:42 493] transport  388  [soc] [0] connected  
+[2015/11/14 11:22:42 493] transport  978  build http request.  
+[2015/11/14 11:22:42 493] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:22:42 494] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:22:42 841] transport  419  [soc] [0] readable  
+[2015/11/14 11:22:42 841] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:22:52 74
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:22:52 81
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0b9hkGexcc^F^hVgKGe1ho1bOIzsuyQvc4ladW0cWiAMG^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:22:42 841] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:22:42 841] transport  1200 port updated  80  
+[2015/11/14 11:22:42 841] transport  1202 switch  80  
+[2015/11/14 11:22:42 842] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:22:42 842] transport  957  [soc] disconnect   
+[2015/11/14 11:22:42 842] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:22:42 842] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:22:42 842] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:23:47 091 
+============================================================
+[2015/11/14 11:23:47 091] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:23:47 091] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:23:47 091] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:23:47 092] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:23:47 092] auth       292  auth_user_type=  nil  
+[2015/11/14 11:23:47 092] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:23:47 092] auth       357  authstat =   0  
+[2015/11/14 11:23:47 092] transport  662  net type:  standard  
+[2015/11/14 11:23:47 092] transport  663  net operator:  def  
+[2015/11/14 11:23:47 092] transport  664  use proxy:  false  
+[2015/11/14 11:23:47 092] auth       256  [session] send auth request  
+[2015/11/14 11:23:47 092] transport  829  using cached ip:  59.107.24.11  
+[2015/11/14 11:23:47 092] transport  864  ns_i =  nil  
+[2015/11/14 11:23:47 092] transport  939  [soc] connect   59.107.24.11  80  
+[2015/11/14 11:23:47 092] auth       208  use loginid  
+[2015/11/14 11:23:47 350] transport  388  [soc] [0] connected  
+[2015/11/14 11:23:47 350] transport  978  build http request.  
+[2015/11/14 11:23:47 351] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:23:47 351] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:23:47 620] transport  419  [soc] [0] readable  
+[2015/11/14 11:23:47 620] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:13:44 787
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:13:44 793
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0buCYtc0cB0gHtbPOZOz3dWN82x0^7BrcHeQWf/w6BEYS^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:23:47 620] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:23:47 620] transport  1200 port updated  80  
+[2015/11/14 11:23:47 620] transport  1202 switch  80  
+[2015/11/14 11:23:47 620] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:23:47 620] transport  957  [soc] disconnect   
+[2015/11/14 11:23:47 620] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:23:47 621] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:23:47 621] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:31:00 033 
+============================================================
+[2015/11/14 11:31:00 033] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:31:00 033] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:31:00 033] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:31:00 033] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 11:31:00 033] auth       292  auth_user_type=  nil  
+[2015/11/14 11:31:00 033] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:31:00 033] auth       357  authstat =   0  
+[2015/11/14 11:31:00 033] transport  662  net type:  standard  
+[2015/11/14 11:31:00 033] transport  663  net operator:  def  
+[2015/11/14 11:31:00 033] transport  664  use proxy:  false  
+[2015/11/14 11:31:00 033] auth       256  [session] send auth request  
+[2015/11/14 11:31:00 033] transport  829  using cached ip:  117.121.21.147  
+[2015/11/14 11:31:00 033] transport  864  ns_i =  nil  
+[2015/11/14 11:31:00 033] transport  939  [soc] connect   117.121.21.147  80  
+[2015/11/14 11:31:00 034] auth       208  use loginid  
+[2015/11/14 11:31:00 419] transport  388  [soc] [0] connected  
+[2015/11/14 11:31:00 419] transport  978  build http request.  
+[2015/11/14 11:31:00 420] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:31:00 420] transport  410  [soc] [0] send ok  641  
+[2015/11/14 11:31:00 873] transport  419  [soc] [0] readable  
+[2015/11/14 11:31:00 873] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:31:11 164
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:31:11 170
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bo^Q/x9hbNJdxX95/I8iCcTlyl0P/sUe/MFvIl0AWnWK^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:31:00 873] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:31:00 873] transport  1200 port updated  80  
+[2015/11/14 11:31:00 873] transport  1202 switch  80  
+[2015/11/14 11:31:00 873] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:31:00 873] transport  957  [soc] disconnect   
+[2015/11/14 11:31:00 873] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:31:00 874] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:31:00 874] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:47:04 039 
+============================================================
+[2015/11/14 11:47:04 039] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:47:04 039] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:47:04 039] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:47:04 039] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 11:47:04 039] auth       292  auth_user_type=  nil  
+[2015/11/14 11:47:04 039] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:47:04 039] auth       357  authstat =   0  
+[2015/11/14 11:47:04 039] transport  662  net type:  standard  
+[2015/11/14 11:47:04 039] transport  663  net operator:  def  
+[2015/11/14 11:47:04 039] transport  664  use proxy:  false  
+[2015/11/14 11:47:04 039] auth       256  [session] send auth request  
+[2015/11/14 11:47:04 039] transport  829  using cached ip:  59.107.24.7  
+[2015/11/14 11:47:04 039] transport  864  ns_i =  nil  
+[2015/11/14 11:47:04 039] transport  939  [soc] connect   59.107.24.7  80  
+[2015/11/14 11:47:04 039] auth       208  use loginid  
+[2015/11/14 11:47:04 348] transport  388  [soc] [0] connected  
+[2015/11/14 11:47:04 348] transport  978  build http request.  
+[2015/11/14 11:47:04 349] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:47:04 350] transport  410  [soc] [0] send ok  641  
+[2015/11/14 11:47:04 647] transport  419  [soc] [0] readable  
+[2015/11/14 11:47:04 647] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:47:17 82
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:47:17 90
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bWR2uN3SFkDjil2F2QbWZgS9eauoxqcJTZ3Ywsy0bMUu^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:47:04 647] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:47:04 647] transport  1200 port updated  80  
+[2015/11/14 11:47:04 647] transport  1202 switch  80  
+[2015/11/14 11:47:04 647] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:47:04 647] transport  957  [soc] disconnect   
+[2015/11/14 11:47:04 647] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:47:04 648] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:47:04 648] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 11:47:26 588 
+============================================================
+[2015/11/14 11:47:26 588] auth       428  SYS_MSG_LOAD  
+[2015/11/14 11:47:26 588] auth       278  AUTH_MSG_INIT  
+[2015/11/14 11:47:26 588] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 11:47:26 589] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/14 11:47:26 589] auth       292  auth_user_type=  nil  
+[2015/11/14 11:47:26 589] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 11:47:26 589] auth       357  authstat =   0  
+[2015/11/14 11:47:26 589] transport  662  net type:  standard  
+[2015/11/14 11:47:26 589] transport  663  net operator:  def  
+[2015/11/14 11:47:26 589] transport  664  use proxy:  false  
+[2015/11/14 11:47:26 589] auth       256  [session] send auth request  
+[2015/11/14 11:47:26 589] transport  829  using cached ip:  117.121.21.147  
+[2015/11/14 11:47:26 589] transport  864  ns_i =  nil  
+[2015/11/14 11:47:26 589] transport  939  [soc] connect   117.121.21.147  80  
+[2015/11/14 11:47:26 589] auth       208  use loginid  
+[2015/11/14 11:47:26 856] transport  388  [soc] [0] connected  
+[2015/11/14 11:47:26 856] transport  978  build http request.  
+[2015/11/14 11:47:26 857] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 11:47:26 857] transport  410  [soc] [0] send ok  633  
+[2015/11/14 11:47:27 228] transport  419  [soc] [0] readable  
+[2015/11/14 11:47:27 229] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 03:47:39 688
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 03:47:39 695
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bKh1ZtZgd/mt6JQoJbjhGkzUx12GZ8aQ7y5v75QwMqri^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 11:47:27 229] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 11:47:27 229] transport  1200 port updated  80  
+[2015/11/14 11:47:27 229] transport  1202 switch  80  
+[2015/11/14 11:47:27 229] auth       144  [trans] [id = auth] readable  
+[2015/11/14 11:47:27 229] transport  957  [soc] disconnect   
+[2015/11/14 11:47:27 229] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 11:47:27 230] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 11:47:27 230] auth       165  auth ok!  
+============================================================
+Time  2015/11/14 12:44:01 066 
+============================================================
+[2015/11/14 12:44:01 066] auth       428  SYS_MSG_LOAD  
+[2015/11/14 12:44:01 066] auth       278  AUTH_MSG_INIT  
+[2015/11/14 12:44:01 066] auth       279  auth  auth  268436457  1423551297  
+[2015/11/14 12:44:01 066] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/14 12:44:01 066] auth       292  auth_user_type=  nil  
+[2015/11/14 12:44:01 066] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/14 12:44:01 066] auth       357  authstat =   0  
+[2015/11/14 12:44:01 066] transport  662  net type:  standard  
+[2015/11/14 12:44:01 066] transport  663  net operator:  def  
+[2015/11/14 12:44:01 066] transport  664  use proxy:  false  
+[2015/11/14 12:44:01 066] auth       256  [session] send auth request  
+[2015/11/14 12:44:01 067] transport  829  using cached ip:  59.107.24.7  
+[2015/11/14 12:44:01 067] transport  864  ns_i =  nil  
+[2015/11/14 12:44:01 067] transport  939  [soc] connect   59.107.24.7  80  
+[2015/11/14 12:44:01 067] auth       208  use loginid  
+[2015/11/14 12:44:01 361] transport  388  [soc] [0] connected  
+[2015/11/14 12:44:01 361] transport  978  build http request.  
+[2015/11/14 12:44:01 361] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/14 12:44:01 362] transport  410  [soc] [0] send ok  641  
+[2015/11/14 12:44:01 633] transport  419  [soc] [0] readable  
+[2015/11/14 12:44:01 633] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/15 04:44:21 756
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/15 04:44:21 763
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0b2ldVcrHTAkUpskk8Rrj3HkVJCKSj2^rPTbXzgsYL6Sy^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/14 12:44:01 633] transport  1099 a_complete_httpmessage  200  
+[2015/11/14 12:44:01 634] transport  1200 port updated  80  
+[2015/11/14 12:44:01 634] transport  1202 switch  80  
+[2015/11/14 12:44:01 634] auth       144  [trans] [id = auth] readable  
+[2015/11/14 12:44:01 634] transport  957  [soc] disconnect   
+[2015/11/14 12:44:01 634] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/14 12:44:01 635] auth       162  write auth file failed!, err=  11200  
+[2015/11/14 12:44:01 635] auth       165  auth ok!  
+============================================================
+Time  2015/11/15 18:45:00 933 
+============================================================
+[2015/11/15 18:45:00 933] auth       428  SYS_MSG_LOAD  
+[2015/11/15 18:45:00 934] auth       278  AUTH_MSG_INIT  
+[2015/11/15 18:45:00 934] auth       279  auth  auth  268436457  1423551297  
+[2015/11/15 18:45:00 934] auth       290  athinfo  {"authorize":[{"busin":"aitalk","ver":"0"}]}  
+[2015/11/15 18:45:00 934] auth       292  auth_user_type=  nil  
+[2015/11/15 18:45:00 934] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/15 18:45:00 934] auth       357  authstat =   0  
+[2015/11/15 18:45:00 934] transport  662  net type:  standard  
+[2015/11/15 18:45:00 934] transport  663  net operator:  def  
+[2015/11/15 18:45:00 934] transport  664  use proxy:  false  
+[2015/11/15 18:45:00 934] auth       256  [session] send auth request  
+[2015/11/15 18:45:00 934] transport  829  using cached ip:  59.107.24.11  
+[2015/11/15 18:45:00 934] transport  864  ns_i =  nil  
+[2015/11/15 18:45:00 934] transport  939  [soc] connect   59.107.24.11  80  
+[2015/11/15 18:45:00 934] auth       208  use loginid  
+[2015/11/15 18:45:01 337] transport  388  [soc] [0] connected  
+[2015/11/15 18:45:01 337] transport  978  build http request.  
+[2015/11/15 18:45:01 338] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 466
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/15 18:45:01 339] transport  410  [soc] [0] send ok  641  
+[2015/11/15 18:45:01 751] transport  419  [soc] [0] readable  
+[2015/11/15 18:45:01 751] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/16 10:34:51 618
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/16 10:34:51 624
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bLtDItUv3g4nuTRm27gx4KxAZb4Yiq9/IBCUKZbtcGmK^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/15 18:45:01 751] transport  1099 a_complete_httpmessage  200  
+[2015/11/15 18:45:01 751] transport  1200 port updated  80  
+[2015/11/15 18:45:01 751] transport  1202 switch  80  
+[2015/11/15 18:45:01 751] auth       144  [trans] [id = auth] readable  
+[2015/11/15 18:45:01 751] transport  957  [soc] disconnect   
+[2015/11/15 18:45:01 751] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/15 18:45:01 752] auth       162  write auth file failed!, err=  11200  
+[2015/11/15 18:45:01 752] auth       165  auth ok!  
+============================================================
+Time  2015/11/15 18:52:54 080 
+============================================================
+[2015/11/15 18:52:54 080] auth       428  SYS_MSG_LOAD  
+[2015/11/15 18:52:54 080] auth       278  AUTH_MSG_INIT  
+[2015/11/15 18:52:54 080] auth       279  auth  auth  268436457  1423551297  
+[2015/11/15 18:52:54 080] auth       290  athinfo  {"authorize":[{"ver":"0","busin":"aitalk"}]}  
+[2015/11/15 18:52:54 080] auth       292  auth_user_type=  nil  
+[2015/11/15 18:52:54 080] auth       355  AUTH_MSG_START, caller =  nil  
+[2015/11/15 18:52:54 080] auth       357  authstat =   0  
+[2015/11/15 18:52:54 080] transport  662  net type:  standard  
+[2015/11/15 18:52:54 080] transport  663  net operator:  def  
+[2015/11/15 18:52:54 080] transport  664  use proxy:  false  
+[2015/11/15 18:52:54 080] auth       256  [session] send auth request  
+[2015/11/15 18:52:54 080] transport  829  using cached ip:  116.213.69.201  
+[2015/11/15 18:52:54 080] transport  864  ns_i =  nil  
+[2015/11/15 18:52:54 080] transport  939  [soc] connect   116.213.69.201  80  
+[2015/11/15 18:52:54 081] auth       208  use loginid  
+[2015/11/15 18:52:54 358] transport  388  [soc] [0] connected  
+[2015/11/15 18:52:54 358] transport  978  build http request.  
+[2015/11/15 18:52:54 358] transport  1080 POST /msp.do HTTP/1.1
+Host: dev.voicecloud.cn
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 458
+User-Agent: iFLYCloud
+Cache-Control: no-cache
+Accept: */*
+
+----
+CL:117
+CT:text/plain
+
+ver=MSSP+0%2E9&sub=auth&cmd=rath&cver=5%2E1%2E0%2E1043&key=0as/gd7p3jBsYibE8u1XLYYmunOtIimSrQiK8KXQpPCm2IrwpdCk8KbQ==
+----
+CL:56
+CT:text/appinfo
+CE:gzip,encrypt/0.2
+
+Ø;S_û·›Y…–—T--/U“T“(*U+—‘PV‘T(/)/.W’T))PS*adØWn¢  
+[2015/11/15 18:52:54 359] transport  410  [soc] [0] send ok  633  
+[2015/11/15 18:52:54 700] transport  419  [soc] [0] readable  
+[2015/11/15 18:52:54 700] transport  1330 HTTP/1.1 200 OK
+Content-Type: multipart/mixed;boundary=--
+Content-Length: 371
+X-Req-Date: 2015/11/16 10:42:12 816
+Cache-Control: no-cache
+CL: 371
+X-Res-Date: 2015/11/16 10:42:12 824
+
+----
+Content-Length:145
+
+ver=MSSP+0%2E9&ret=0&cver=5%2E1%2E0%2E1043&key=0bN7Ic4lSEqjN2x5uOzCC/FiCylbGkCJWf4lhoXyABXru^^GHVr44O7FN5ES6a2XnHFJT7mJAJV1d6dW5u^Ta6NHp1bm75Nro0
+----
+Content-Length:96
+Content-Type:binary/authinfo
+Content-Encoding:gzip,encrypt/0.2
+
+V”V¯Û.®H-®≠2÷Œ2N/I6÷6V0∂5.NIbm¿2p  
+[2015/11/15 18:52:54 700] transport  1099 a_complete_httpmessage  200  
+[2015/11/15 18:52:54 700] transport  1200 port updated  80  
+[2015/11/15 18:52:54 700] transport  1202 switch  80  
+[2015/11/15 18:52:54 700] auth       144  [trans] [id = auth] readable  
+[2015/11/15 18:52:54 700] transport  957  [soc] disconnect   
+[2015/11/15 18:52:54 701] auth       155  tostring(auth_json)=  {"aitalk":{"ver":"1","bus":{"expire_date":1450372648,"forbid":"0","nlimit":3}}}  
+[2015/11/15 18:52:54 701] auth       162  write auth file failed!, err=  11200  
+[2015/11/15 18:52:54 702] auth       165  auth ok!  
