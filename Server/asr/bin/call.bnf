@@ -22,5 +22,5 @@
 <contact>:丁伟;
 
 <light>:<trigger><action>;
-<trigger>:小雪;
-<action>:开灯|关灯;
+<trigger>:小雪!id(11001);
+<action>:开灯!id(12001)|关灯!id(12002);
