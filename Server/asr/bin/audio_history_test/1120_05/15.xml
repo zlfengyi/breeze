@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>小雪开灯</rawtext>
+  <confidence>91</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>trigger|action</focus>
+    <confidence>0|0</confidence>
+    <object>
+      <trigger id="11001">小雪</trigger>
+      <action id="12001">开灯</action>
+    </object>
+  </result>
+</nlp>

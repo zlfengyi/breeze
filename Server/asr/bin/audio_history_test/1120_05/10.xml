@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?><nlp>
+  <version>1.1</version>
+  <rawtext>拨通丁伟</rawtext>
+  <confidence>9</confidence>
+  <engine>local</engine>
+  <result>
+    <focus>dialpre|contact</focus>
+    <confidence>0|0</confidence>
+    <object>
+      <dialpre id="10001">拨通</dialpre>
+      <dialpre id="10001">拨打</dialpre>
+      <dialpre id="10001">拨打电话给</dialpre>
+      <contact id="65535">丁伟</contact>
+    </object>
+  </result>
+</nlp>
