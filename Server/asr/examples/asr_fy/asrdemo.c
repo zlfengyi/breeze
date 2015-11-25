@@ -4,6 +4,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <dirent.h>
+#include <time.h>
 
 #include "../../lib/inc/qisr.h"
 #include "../../lib/inc/msp_cmn.h"
@@ -245,7 +246,7 @@ int run_asr(UserData *udata, int index)
 		if (MSP_EP_AFTER_SPEECH == ep_status)
 			break;
 
-		usleep(150 * 100); //模拟人说话时间间隙
+		usleep(15 * 1000); //模拟人说话时间间隙
 	}
 	//主动点击音频结束
 	QISRAudioWrite(session_id, (const void *)NULL, 0, MSP_AUDIO_SAMPLE_LAST, &ep_status, &rec_status);
@@ -321,7 +322,7 @@ int scan_dir(int* cur_index) {
 	  closedir (dir);
 	} else {
 	  /* could not open directory */
-	  perror ("");
+	  perror ("can't find scan dir\n");
 	  return -1;
 	}
 	return -1;
@@ -345,6 +346,7 @@ int main(int argc, char* argv[])
 	printf("构建离线识别语法网络...\n");
 	ret = build_grammar(&asr_data);  //第一次使用某语法进行识别，需要先构建语法网络，获取语法ID，之后使用此语法进行识别，无需再次构建
 	if (MSP_SUCCESS != ret) {
+		printf("----------------------1");
 		printf("构建语法调用失败！\n");
 		goto exit;
 	}
@@ -354,17 +356,21 @@ int main(int argc, char* argv[])
 		goto exit;
 
 	printf("离线识别语法网络构建完成，开始识别...\n");	
+	printf("-----------------fy start-------------------\n");
 	int current_pcm_index = 0;
 	while (1>0) {
 		int index = scan_dir(&current_pcm_index);
 		if (index > 0) {
+			clock_t st = clock();
 			ret = run_asr(&asr_data, index);
 			if (MSP_SUCCESS != ret) {
 				printf("离线语法识别出错: %d \n", ret);
 				goto exit;
 			}
+			clock_t ed = clock();
+			printf("asr cost %d seconds.\n", ed-st);
 		} 
-		usleep(1000 * 1000);
+		usleep(50 * 1000);
 		
 		/*
 		ret = run_asr(&asr_data);

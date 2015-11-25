@@ -1,0 +1,26 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <want>;
+!slot <trigger>;
+!slot <action>;
+!slot <color>;
+!slot <askpre>;
+!slot <asksuf>;
+!slot <sigh>;
+
+!start <callstart>;
+<callstart>:<turnlight>|<turncolor>|<trueorfalse>;
+<want>:我想;
+
+<trigger>:彬彬!id(11001);
+<sigh>:哇|恩|啊|哈;
+<askpre>:能不能|可不可以|能|可以;
+<asksuf>:吗|么|行不行|好吗;
+
+<trueorfalse>:[<sigh>]|真的吗|真的假的|真的;
+
+<turnlight>:[<trigger>][<askpre>]<action>[<asksuf>];
+<action>:开灯!id(12001)|关灯!id(12002)|暗一点!id(12003)|亮一点!id(12004);
+
+<turncolor>:[<trigger>][<want>]<color>;
+<color>:红色!id(13001)|蓝色!id(13003)|紫色!id(13004);
