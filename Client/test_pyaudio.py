@@ -4,58 +4,54 @@ import pyaudio
 import httplib
 import urllib
 import audioop
+import wave
+import json
+from base64 import b64decode
 
-def getRecord(seconds):
-    CHUNK = 1600
-    FORMAT = pyaudio.paInt16
-    CHANNELS = 1
-    RATE = 16000
+import ledm
 
-    p = pyaudio.PyAudio()
+def outputWave(name, lpcm, rate):
+    wf = wave.open(name, 'wb')
+    wf.setnchannels(1)
+    wf.setsampwidth(pyaudio.PyAudio().get_sample_size(pyaudio.paInt16))
+    wf.setframerate(rate)
+    wf.writeframes(lpcm)
+    wf.close()
 
-    stream = p.open(format=FORMAT,
-                    channels=CHANNELS,
-                    rate=RATE,
-                    input=True,
-                    frames_per_buffer=CHUNK)
-
-    print("* recording")
-
-    frames = []
-    for i in range(0, int(RATE / CHUNK * seconds)):
-        data = stream.read(CHUNK)
-        frames.append(data)
-    print("* done recording")
-
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
-
-    return frames
+def take_action(data_json):
+    if data_json.has_key("light"):
+        color = data_json["light"]
+        ledm.set_color(color[0], color[1], color[2])
+    print "finish taking action"
 
 def getResponse(lpcm, index):
-    httpServ = httplib.HTTPConnection("192.168.1.2", 8000)
+    httpServ = httplib.HTTPConnection("40.117.226.250", 8000)
     httpServ.connect()
 
     params = urllib.urlencode({'@index': "%d"%index, '@lpcm': "%s"%lpcm})
     headers = {"Content-type": "application/x-www-form-urlencoded",
                "Accept": "text/plain"}
 
-    httpServ.request('POST', "/test_cgi.py", params, headers)
+    httpServ.request('POST', "/dm.py", params, headers)
+    print "Sending request"
     response = httpServ.getresponse()
 
-    response.
     if response.status == httplib.OK:
-        print(response.read())
+        s = response.read()
+        print(s)
+        data = json.loads(s)
+        print(data)
+        take_action(data)
+        #backlpcm = b64decode(data['@lpcm'])
     else:
         print(response.status)
 
 
 def listen():
-    CHUNK = 1600
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
-    RATE = 16000
+    RATE = 48000
+    CHUNK = RATE/10
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT,
                     channels=CHANNELS,
@@ -65,31 +61,40 @@ def listen():
 
     # Threshold params to trigger voice
     expand = 2
-    threshold = 700
+    threshold = 250
 
     frames = []
     left = expand
     index = 1
     print("* recording")
     while (1>0):
-        data = stream.read(CHUNK)
+        data = '\x00'*CHUNK
+        try:
+            data = stream.read(CHUNK)
+            data = audioop.ratecv(data, 2, 1, 48000, 16000, None)[0]
+        except IOError as ex:
+            if ex[1] != pyaudio.paInputOverflowed:
+                raise
+        print(audioop.rms(data, 2))
+        frames.append(data)
         if (audioop.rms(data, 2) > threshold):
-            frames.append(data)
-            left = expand
+            left = 3
         else:
             left -= 1
-            if (left <= 0 and len(frames) > 2*expand):
+            '''at least have 2 frame excced threshold'''
+            if (left <= 0 and len(frames) > 2*expand+2):
                 index += 1
                 print("get sentence", index)
-                open("test.lpcm", "wb").write(b''.join(frames))
+                # outputWave("history_audios/"+str(index)+".wav", b''.join(frames), 16000)
                 getResponse(b''.join(frames), index)
                 frames = []
+                left = expand
             elif left < 0:
                 frames = frames[0:expand]
 
 
 if __name__ == "__main__":
-
+    ledm.init()
     listen()
 
     frames = getRecord(6)
@@ -97,6 +102,4 @@ if __name__ == "__main__":
     for frame in frames:
         print(audioop.rms(frame,2))
     #getResponse(frames)
-
-
 
